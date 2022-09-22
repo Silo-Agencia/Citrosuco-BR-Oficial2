@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Intro';
+    src: url('assets/font/intro/Intro-Bold.eot');
+    src: url('assets/font/intro/Intro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/intro/Intro-Bold.woff2') format('woff2'),
+        url('assets/font/intro/Intro-Bold.woff') format('woff'),
+        url('assets/font/intro/Intro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('assets/font/intro/Intro-SemiBold.eot');
+    src: url('assets/font/intro/Intro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/intro/Intro-SemiBold.woff2') format('woff2'),
+        url('assets/font/intro/Intro-SemiBold.woff') format('woff'),
+        url('assets/font/intro/Intro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

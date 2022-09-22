@@ -1,0 +1,1 @@
+<?php header('Location: ' . get_template_directory_uri() . '/assets/misc/citrosuco_NC_PT_2030.pdf');

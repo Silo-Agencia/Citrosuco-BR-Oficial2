@@ -1,0 +1,102 @@
+//Tags
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Raleway', sans-serif !important;
+    font-style: normal;
+    font-size: 14px;
+    #page {
+        overflow-x: hidden;
+    }
+}
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    color: inherit;
+    text-decoration: inherit;
+    outline: none;
+}
+input,
+button,
+select {
+    outline: none;
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    outline: none !important;
+    user-select: none !important;
+    &:focus {
+        outline: none !important;
+        user-select: none !important;
+    }
+}
+.desktop,
+.Desktop {
+    @include size(false, $MDmax) {
+        display: none !important;
+    }
+}
+
+.mobile,
+.Mobile {
+    @include size($LGmin) {
+        display: none !important;
+    }
+}
+.row.full {
+    min-height: 100vh;
+    padding: 50px 0px;
+    @include size(false, $SMmax) {
+        min-height: auto;
+        padding: 30px 0px;
+    }
+}
+
+.paginacao {
+  text-align: center;
+  margin-top: 50px;
+  .page-numbers {
+        font-size: 0px;
+        background-color: #0B6F98;
+        opacity: 0.3;
+        border: 1px;
+        color: #FFF;
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        display: inline-block;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+       &:hover,
+       &.current {
+            background-color: #000;
+            opacity: 1;
+       }
+       &.dots {
+            background-color: rgba(0,0,0,0) !important;
+            color: #000;
+       }
+       img {
+            width: 18px;
+            vertical-align: -5px;
+       }
+       &.next,
+       &.prev {
+            display: none;
+       }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Intro';
+    font-weight: bold;
+    font-style: normal;
+}

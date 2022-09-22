@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.banner{
+    background-image: url(../assets/img/linha/banner_bg_linha\ do\ tempo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: no-repeat; */
+    display: flex;
+    justify-content: start;
+    background-position: 0px 0px;
+    padding-bottom: 600px;
+    
+}
+.linhadotempo{
+    background-image: url(../assets/img/linha/linhadotempoFinal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: no-repeat; */
+    display: flex;
+    justify-content: start;
+    background-position: 0px 0px;
+    padding-bottom: 3000px;
+}

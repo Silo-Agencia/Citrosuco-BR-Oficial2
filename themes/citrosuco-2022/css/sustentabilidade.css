@@ -1,0 +1,407 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img.confira_cada {
+	padding-top: 30px;
+}
+.a_sustentabilidade {
+	padding-top: 30px;
+}
+img.uma_sustentavel {
+	padding-top: 50px;
+}
+.sliderTopo {
+	padding-top: 0;
+	margin-bottom: 0;
+	background-image: url("../assets/img/sustentabilidade/fundo_banner_principal.png");
+}
+.linha_quatro {
+	margin-top: -120px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	align-items: center;
+	justify-content: center;
+
+	background-image: url("../assets/img/sustentabilidade/fundo_tres.png");
+
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100vw;
+}
+.linha_cinco {
+	background-image: url("../assets/img/sustentabilidade/fundo-sem-o-100.png");
+
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.banner-sustentabilidade {
+	padding-left: 0;
+}
+.imagem_abelha {
+	text-align: end;
+	width: 500px;
+	padding-right: 0;
+}
+.abelha {
+	width: 500px;
+}
+.container-fluid.linha_tres {
+	margin-top: -150px;
+	position: relative;
+	background-image: url(../assets/img/sustentabilidade/fundo_abelha.png);
+}
+.nossos_valores {
+	padding-top: 80px;
+	padding-bottom: 300px;
+	text-align: end;
+}
+.banner {
+	background-image: url(../assets/img/sustentabilidade/banner-bg-Susten.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background: no-repeat; */
+	display: flex;
+	justify-content: start;
+	background-position: 0px 0px;
+}
+.textobanner {
+	padding-top: 120px;
+	padding-left: 150px;
+	padding-bottom: 250px;
+}
+h2.impacto {
+	color: #a1c955;
+	font-size: 75px;
+}
+.muitoalem {
+	background-image: url(../assets/img/sustentabilidade/modulo_muito-alem.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	background-position: 0px 0px;
+}
+.muitoalembloco1 h2 {
+	color: #005e33;
+	padding-right: 100px;
+}
+.muitoalembloco1 {
+	padding-top: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 120px;
+}
+.txtbottommuitoalem {
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 130px;
+	text-align: initial;
+}
+/* primeira*/
+.produtossaudaveis {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #50a146;
+}
+.produtossaudaveis img {
+	width: 700px;
+}
+.produtossaudaveisbloco2 h2 {
+	color: #f4bc2d;
+	font-size: 30px;
+	padding-top: 120px;
+}
+.produtossaudaveisbloco2 span {
+	color: white;
+}
+.produtossaudaveisbloco2 span.texto1 p {
+	padding-right: 300px;
+}
+.produtossaudaveisbloco2 span.texto2 p {
+	padding-right: 150px;
+}
+.produtossaudaveisbloco2 {
+	padding-left: 50px;
+}
+.button.botao2 {
+	margin-left: 0px;
+}
+.button.botao1 {
+	margin-left: 0px;
+}
+/* primeira*/
+
+/* Segunda*/
+.pessoassaudaveis {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #005e33;
+}
+.pessoassaudaveis img {
+	width: 700px;
+	display: block;
+	margin: auto 0 auto auto;
+}
+.pessoassaudaveisbloco2 h2 {
+	color: #f4bc2d;
+	font-size: 30px;
+	padding-top: 120px;
+}
+.pessoassaudaveisbloco2 span {
+	color: white;
+}
+.pessoassaudaveisbloco2 span {
+	color: white;
+}
+.pessoassaudaveisbloco2 {
+	padding-right: 50px;
+	text-align: end;
+}
+.pessoassaudaveisbloco2 span.texto2 p {
+	padding-left: 50px;
+}
+/* Segunda*/
+
+/* certificacoes*/
+.pessoassaudaveis.certificacoes {
+	background: #f79431;
+}
+.pessoassaudaveisbloco2.certificacoes {
+	text-align: start;
+	padding-right: 50px;
+}
+.pessoassaudaveisbloco2.certificacoes h2 {
+	margin-left: 100px;
+	padding-top: 50px;
+	color: #655046;
+}
+.pessoassaudaveisbloco2.certificacoes span.texto2 p {
+	padding-left: 100px;
+}
+/* certificacoes*/
+
+.instituicoeslogo img {
+	width: 100%;
+}
+
+.pessoassaudaveis {
+	background: #005e33;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos {
+	padding-left: 50px;
+	text-align: start;
+	padding-top: 30px;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos h2 {
+	color: #f4bc2d;
+	font-size: 30px;
+	padding-top: 20px;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos h2 {
+	color: #50a146;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-bottom: 3px;
+}
+.pessoassaudaveis.parceriaseprojetos {
+	background: #fbe7cd;
+}
+.pessoassaudaveis.parceriaseprojetos span {
+	color: black;
+}
+.pessoassaudaveis.parceriaseprojetos img {
+	width: 1000px;
+}
+.galeria {
+	display: flex;
+	width: 100%;
+}
+.galeria img {
+	width: 25%;
+}
+.pessoassaudaveis.parceriaseprojetos.relatorios {
+	background: #655046;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos h2 {
+	color: #50a146;
+}
+span.texto02 {
+	color: white !important;
+}
+span.texto02 p {
+	padding-left: 50px;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos.relatorio {
+	padding-right: 0;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos.relatorio h2 {
+	color: #f79431;
+}
+.pessoassaudaveisbloco2.parceriaseprojetos.relatorio h2 {
+	color: #f79431;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.button {
+	color: white;
+	background: red;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 0;
+	font-weight: 800;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.button.botao1 {
+	margin-left: 100px;
+}
+.pessoassaudaveis.parceriaseprojetos.relatorio img {
+	width: 800px;
+}
+.pessoassaudaveisbloco1.parceriaseprojetos.relatorio img {
+	width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+	img.nossos-compromissos {
+		max-width: 90%;
+	}
+	.col-12.col-lg-6.nosso_produto_natural {
+		padding-bottom: 20px;
+	}
+	.saiba_mais_botao {
+		padding-bottom: 30px;
+	}
+	.col-12.col-lg-6.d-flex.flex-column.linha_quatro_2 {
+		padding-right: 10px;
+		padding-left: 15px;
+	}
+	img.a_sustentabilidade {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.linha_cinco {
+		background-size: 2000px;
+	}
+	img.confira_cada {
+		padding-bottom: 60px;
+	}
+	.container-fluid.linha_tres {
+		margin-top: -180px;
+		position: relative;
+	}
+	.nossos_valores {
+		padding-top: 80px;
+		padding-bottom: 0;
+		text-align: center;
+	}
+	.abelha {
+		width: 200px;
+	}
+	.linha_quatro {
+		margin-top: 0;
+	}
+	.linha_quatro {
+		margin-top: 0;
+
+		background-size: 2000px;
+	}
+
+	.banner {
+		flex-direction: column-reverse;
+		background-position: -30px 60px;
+	}
+	h2.impacto {
+		font-size: 50px;
+		padding-top: 100px;
+	}
+	.pessoassaudaveis {
+		grid-template-columns: 1fr;
+		grid-auto-flow: dense;
+	}
+	.pessoassaudaveisbloco2 {
+		grid-row: 2;
+		padding-left: 50px;
+		padding-right: 15px;
+		text-align: start;
+	}
+	.pessoassaudaveisbloco2 span.texto2 p {
+		padding-left: 0;
+		padding-bottom: 30px;
+	}
+	.pessoassaudaveisbloco2.certificacoes span.texto2 p {
+		padding-left: 0;
+	}
+	.pessoassaudaveisbloco2.certificacoes h2 {
+		text-align: center;
+		margin-left: 0;
+		padding-bottom: 10px;
+	}
+	.pessoassaudaveisbloco2.parceriaseprojetos h2 {
+		color: #50a146;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-left: 0;
+		padding-top: 0px;
+	}
+	span.texto02 p {
+		padding-left: 0px;
+	}
+	.pessoassaudaveisbloco2.parceriaseprojetos.relatorio {
+		padding-right: 15px;
+	}
+	.pessoassaudaveisbloco2 h2 {
+		padding-top: 60px;
+	}
+	.textobanner {
+		padding-top: 0;
+		padding-left: 15px;
+		padding-bottom: 50px;
+	}
+	.muitoalembloco1 {
+		padding-top: 100px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 120px;
+	}
+	.muitoalem {
+		grid-template-columns: 1fr;
+	}
+	.txtbottommuitoalem {
+		flex-direction: column;
+		padding-left: 40px;
+		padding-right: 15px;
+		gap: 30px;
+	}
+	/* primeira*/
+	.produtossaudaveis {
+		grid-template-columns: 1fr;
+	}
+	.produtossaudaveis img {
+		width: 100vw;
+	}
+	.produtossaudaveisbloco2 span.texto1 p {
+		padding-right: 15px;
+	}
+	.produtossaudaveisbloco2 span.texto2 p {
+		padding-right: 15px;
+		padding-bottom: 30px;
+	}
+	.produtossaudaveisbloco2 h2 {
+		padding-top: 60px;
+	}
+	.button.botao2 {
+		margin-left: 0px;
+	}
+	.button.botao1 {
+		margin-left: 0px;
+	}
+	/* primeira*/
+}

@@ -1,0 +1,45 @@
+//VARIÁVEIS
+    //Cores
+
+    //Tamanhos de tela
+    $XSmax: 575px;
+    $SMmin: 576px;
+    $SMmax: 767px;
+    $MDmin: 768px;
+    $MDmax: 991px;
+    $LGmin: 992px;
+    $LGmax: 1200px;
+    $XLmin: 1201px;
+
+//MIXINS
+    //Mobile
+    @mixin size($minHeight: false, $maxHeight: false) {
+        @if $minHeight == false and $maxHeight == false {
+            @content;
+        } @else {
+            @if $maxHeight == false {
+                @media only screen and (min-width : $minHeight) {
+                    @content;
+                }
+            } @else {
+                @if $minHeight == false {
+                    @media only screen and (max-width : $maxHeight) {
+                        @content;
+                    }
+                } @else {
+                    @media only screen and (min-width : $minHeight) and (max-width : $maxHeight) {
+                        @content;
+                    }
+                }
+            }
+        }
+    }
+
+    //Transition
+    @mixin transition($time) {
+        -webkit-transition: $time;
+        -moz-transition: $time;
+        -ms-transition: $time;
+        -o-transition: $time;
+        transition: $time;
+    }

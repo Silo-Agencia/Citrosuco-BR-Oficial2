@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .banner{
+        background-image: url(../assets/img/pessoas/banner-bg_pessoas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background: no-repeat; */
+        display: flex;
+        justify-content: start;
+        background-position: 0px 0px;
+        padding-bottom: 650px;
+        
+    }
+    .valorizamos{
+        background: #f3c034;
+        background-image: url(../assets/img/pessoas/modulo_valor\ pessoas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        background-position: 0px 0px;
+            flex-direction: column;
+        padding-top: 140px;
+        padding-left: 50px;
+        padding-bottom: 120px;
+    }
+    .valorizamos h2{
+        color:#005e33;
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .trabalheconosco{
+      
+        background-image: url(../assets/img/pessoas/modulo_carreiras.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        background-position: 0px 0px;
+            flex-direction: column;
+        padding-top: 140px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+    
+    }
+    .containertrabalheconosco {
+        margin-left: 850px;
+    }
+    .containertrabalheconosco h2{
+        color: #d34029 ;
+        font-weight: 600;
+    }
+    
+    button.carreiras {
+        color: white;
+        background: #d34029;
+        border: 0;
+        padding: 10px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    button.Linkedin {
+        color: white;
+        background: #f79431;    ;
+        border: 0;
+        padding: 10px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+    
+    }
+    img.imgsemear {
+        width: 300px;
+        padding-bottom: 50px;
+    
+    }
+    img.imgparatodos{
+        padding-top: 30px;
+        width: 300px;
+        padding-bottom: 50px;
+    }
+    .nossosprogramas hr {
+        border-top: 7px solid #50a146;
+        margin-bottom: 50px;
+    }
+    .nossosprogramastxt1 p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .nossosprogramastxt2 p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .nossosprogramastxt1 h3{
+        padding-bottom: 20px;
+        color:#006b23;
+    
+        
+    }
+    .nossosprogramastxt2 h3{
+        padding-bottom: 20px;
+        color:#006b23;
+    
+    }
+    .nossosprogramasbloco2 {
+        text-align: end;
+    }
+    .nossosprogramastxt1 {
+        padding-bottom: 80px;
+    }
+    
+    .btn{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    .btn:hover{
+       
+        color: white;
+        
+    }
+    .btn.desafia {
+        background-color: #f4bc2d;   
+        border-radius: 50px;
+    }
+    .btn.integra {
+        background: #f79431;
+        border-radius: 50px;
+    }
+    .btn.reconhece {
+        background: #e8672e;
+    }
+    a.btn.antecipa {
+        background: #d34029;
+    }
+    .acordeon {
+        background: #00322a;
+    }
+    .acordeon .atuar {
+        display: block;
+        margin: 50px auto;
+        max-width: 500px;
+        width: 100%;
+    }
+    .card.card-body {
+        background: #15352e;
+        color: white;
+        border: 0;
+    }
+    .nossojeito {
+        background: #fbe7cd;
+    }
+    .texto {
+        font-size: 72px;
+        text-align: right;
+        color: #005e33;
+        font-weight: 700;
+        line-height: 65px;
+    }
+    .valorizamosimagemmobile {
+        display: none;
+        
+    }
+    .carreirasmobile{
+        display: none;
+    }
+    .botoes2 {
+        margin-top: 20px;
+        
+    }
+    
+    @media screen and (max-width: 768px){
+        .nossosprogramasbloco2 {
+            text-align: center;
+        }
+        .texto {
+            text-align: center;
+            margin: 50px 0px;
+        }
+
+        .desafia,
+        .Integra,
+        .Reconhece,
+        .Antecipa {
+            text-align: center;
+        }
+        .banner {
+            background-position: -10px 0px;
+            padding-bottom: 250px;
+        }
+        .valorizamos {
+            background: #f3c034;
+            background-image: none;
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            padding-right: 15px;
+            text-align: center;
+            
+        }
+        .valorizamosimagemmobile {
+            display: block;
+            background: #f3c034;
+            
+        }
+        .nossojeito {
+             grid-template-columns: 1fr 1fr;
+        }
+        .containertrabalheconosco {
+            margin-left: 0px;
+        }
+        .trabalheconosco {
+            background-image: url(../assets/img/pessoas/modulo_carreiras_fundo.png);
+            background-position: -700px 0px;
+           
+        }
+        .carreirasmobile{
+            display: block;
+        }
+        .botoes {
+            margin-top: 20px;
+        }
+        .botoes2 {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .nossosprogramas {
+            background: #fbe7cd;
+            grid-template-columns: 1fr;
+            padding-left: 30px;
+            padding-right: 30px;
+            gap: 0;
+            background-size: initial;
+            background-position: -116px 0px;
+        }
+        .nossosprogramastxt1 {
+            padding-bottom: 50px;
+        }
+        .nossosprogramastxt1 h3 {
+            padding-bottom: 5px;
+            
+        }
+        .nossosprogramastxt2 h3 {
+            padding-bottom: 20px;
+            
+        }
+        .nossosprogramasbloco2 {
+            text-align: start;
+            padding-bottom: 50px;
+        }
+    }

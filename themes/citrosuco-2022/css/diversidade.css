@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Raleway;
+}
+.selos-diversidade {
+	display: flex;
+	gap: 30px;
+	padding-top: 30px;
+}
+.banner-diversidade {
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	background-color: #e8672e;
+	background-image: url("../assets/img/diversidade/banner-diversidade.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+img.selo_05 {
+	width: 140px;
+}
+.banner-cadeia-de-valor-bloco-1 {
+	display: grid;
+}
+h1.banner-cadeia-de-valor-txt-1 {
+	color: #f4bc2d;
+}
+h1.banner-diversidade-txt-1 {
+	font-family: intro;
+	color: #f4bc2d;
+	font-size: 55px;
+	font-weight: 700;
+	padding-top: 15px;
+}
+.governanca-diversidade {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+img.icone-menu-debaixo_17 {
+	width: 55px;
+}
+.banner-diversidade-bloco-1 {
+	display: grid;
+	padding-left: 85px;
+	padding-top: 155px;
+	padding-bottom: 230px;
+}
+.governanca-diversidade span {
+	color: white;
+	font-weight: 700;
+}
+
+.diversidade-bloco-2 {
+	display: grid;
+	grid-template-columns: 4fr 6fr;
+	background-color: #e8672e;
+	background-image: url("../assets/img/diversidade/vetor-mulheres_02.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 400px;
+
+	background-size: 100vw;
+	padding-top: 80px;
+}
+.diversidade-bloco-2-2-1-texto-1 {
+	color: white;
+}
+.diversidade-bloco-2-2-1 {
+	color: white;
+	font-weight: 400;
+	font-size: 28px;
+}
+.diversidade-bloco-2-2-2 {
+	color: #f4bc2d;
+	font-size: 150px;
+	line-height: 1;
+	font-family: "Intro";
+	font-weight: bold;
+}
+.diversidade-bloco-2-2-2 span {
+	font-size: 50px;
+	font-weight: 300;
+}
+.diversidade-bloco-2-2-3 {
+	color: white;
+	font-weight: 400;
+	font-size: 28px;
+}
+img.foto_07 {
+	padding-bottom: 180px;
+}
+
+.diversidade-bloco-2-1 {
+	text-align: end;
+}
+.diversidade-bloco-2-2 {
+	padding-left: 20px;
+}
+.diversidade-bloco-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #e8672e;
+	font-size: 28px;
+	text-align: end;
+}
+.diversidade-bloco-3-1 {
+	color: white;
+	padding-right: 15px;
+}
+.diversidade-bloco-3-1-1 {
+	padding-top: 25px;
+	padding-left: 185px;
+	font-size: 40px;
+	line-height: 1.1;
+}
+.diversidade-bloco-3-1-3 {
+	font-size: 15px;
+}
+
+.diversidade-bloco-4 {
+	background-color: #e8672e;
+	color: white;
+}
+.diversidade-bloco-4-1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 50px;
+}
+.diversidade-bloco-4-1-1-texto1 {
+	font-size: 40px;
+}
+.diversidade-bloco-4-1-1 {
+	padding-left: 100px;
+}
+.diversidade-bloco-4-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 20px;
+}
+.diversidade-bloco-4-2-1-texto {
+	padding-left: 175px;
+	padding-top: 45px;
+}
+.diversidade-bloco-4-3 {
+	display: grid;
+	grid-template-columns: 3fr 4fr;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.diversidade-bloco-4-3-2-texto {
+	font-size: 40px;
+}
+.diversidade-bloco-4-4 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+}
+.diversidade-bloco-4-4-1-texto {
+	text-align: end;
+	font-size: 125px;
+	color: #f4bc2d;
+	font-weight: 800;
+}
+.diversidade-bloco-4-5 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 30px;
+}
+.diversidade-bloco-4-4-2-texto {
+	font-size: 40px;
+}
+button.diversidade-botao-indicadores {
+	background: #f4bc2d;
+	border-radius: 20px;
+	color: #00322a;
+	font-weight: 700;
+	padding: 10px 10px 10px 10px;
+	border: none;
+}
+
+.diversidade-bloco-4-6 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.diversidade-blocos-bloco-4-texto-icone {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+}
+.diversidade-blocos-bloco-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 17px;
+}
+.diversidade-blocos-bloco-4-1 {
+	background: #15352e;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+.diversidade-blocos-bloco-4-2 {
+	background: #d34029;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+.diversidade-blocos-bloco-4-3 {
+	background: #655046;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+img.diversidade-blocos-bloco-4-icone {
+	justify-self: end;
+
+	padding-right: 10px;
+}
+.diversidade-blocos-bloco-4-texto.primeiro {
+	font-weight: 800;
+}
+.diversidade-blocos-bloco-4-texto-icone {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	align-items: center;
+	padding-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+	h1.banner-diversidade-txt-1 {
+		color: white;
+	}
+	.banner-diversidade-bloco-1 {
+		padding-left: 15px;
+	}
+	.diversidade-bloco-1 {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.diversidade-bloco-2 {
+		grid-template-columns: 1fr;
+		padding-top: 50px;
+		padding-bottom: 150px;
+	}
+	.diversidade-bloco-3 {
+		text-align: start;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.diversidade-bloco-3-1 {
+		padding-right: 15px;
+		padding-left: 15px;
+		text-align: center;
+	}
+	.diversidade-bloco-3-1-1 {
+		padding-left: 0;
+		font-size: 35px;
+	}
+	img.foto_07 {
+		padding-bottom: 30px;
+	}
+	.diversidade-bloco-2-2-1 {
+		font-size: 23px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.diversidade-bloco-2-2-3 {
+		font-size: 22px;
+		padding-top: 15px;
+	}
+	button.diversidade-botao-indicadores {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.diversidade-blocos-bloco-4 {
+		grid-template-columns: 1fr;
+	}
+	.diversidade-bloco-4-1-1 {
+		padding-left: 0;
+	}
+	.diversidade-bloco-4-1 {
+		grid-template-columns: 1fr;
+	}
+	.diversidade-bloco-4-2 {
+		grid-template-columns: 1fr;
+	}
+	.diversidade-bloco-4-2-1-texto {
+		padding-left: 0;
+	}
+	.diversidade-bloco-4-3 {
+		grid-template-columns: 1fr;
+	}
+	.diversidade-bloco-4-5 {
+		grid-template-columns: 1fr;
+	}
+	.diversidade-bloco-1-1 {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.diversidade-bloco-1-1-1 {
+		font-size: 32;
+		padding-top: 15px;
+		padding-right: 0;
+	}
+	.diversidade-bloco-2-2 {
+		padding-left: 0;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.diversidade-bloco-2-1 {
+		text-align: center;
+	}
+	.diversidade-bloco-4 {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.diversidade-bloco-4-4-2-texto {
+		font-size: 30px;
+	}
+	.diversidade-bloco-4-6 {
+		grid-template-columns: 1fr;
+	}
+}

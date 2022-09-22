@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+}
+.banner-resiliencia-climatica {
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	background-color: #50a146;
+	background-image: url("../assets/img/resiliencia-climatica/Foto-banner-resiliencia.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+img.selo_13 {
+	width: 140px;
+}
+.banner-resiliencia-climatica-bloco-1 {
+	display: grid;
+}
+h1.banner-resiliencia-climatica-txt-1 {
+	color: #f4bc2d;
+}
+h1.banner-resiliencia-climatica-txt-1 {
+	color: #f4bc2d;
+	font-size: 55px;
+	font-weight: 700;
+	padding-top: 15px;
+}
+.ambiental-carbono {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+img.icone-menu-debaixo_13 {
+	width: 55px;
+}
+.banner-resiliencia-climatica-bloco-1 {
+	display: grid;
+	padding-left: 85px;
+	padding-top: 155px;
+	padding-bottom: 310px;
+}
+.ambiental-carbono span {
+	color: white;
+	font-weight: 700;
+}
+
+.resiliencia-climatica-bloco-1 {
+	color: white;
+	margin-top: -85px;
+	text-align: center;
+}
+.resiliencia-climatica-bloco-1 h1 {
+	font-weight: 400;
+}
+.resiliencia-climatica-bloco-1 span {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.resiliencia-climatica-bloco-2 {
+	background-image: url("../assets/img/resiliencia-climatica/fundo-conteudo_03.png");
+	background-repeat: no-repeat;
+	background-color: #50a146;
+
+	background-position: 0 -280px;
+}
+.porcentagem-sessenta {
+	background-image: url("../assets/img/resiliencia-climatica/conteudo_03.png");
+	background-repeat: no-repeat;
+	margin-left: 105px;
+}
+.numero-sessente {
+	font-size: 105px;
+	color: #f4bc2d;
+	margin-left: 400px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: "Intro";
+	font-weight: bold;
+}
+.resiliencia-climatica-bloco-2-1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.resiliencia-climatica-bloco-2-1 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.resiliencia-climatica-bloco-2-left {
+	color: white;
+}
+.resiliencia-climatica-bloco-2-2 {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.resiliencia-climatica-bloco-2-2-left text-1 {
+	color: white;
+}
+.ativosflorestais {
+	color: white;
+	padding-right: 35px;
+	font-size: 40px;
+	line-height: 1;
+	z-index: 1;
+	position: relative;
+}
+.resiliencia-climatica-bloco-2-2-left-txt-ultimo {
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	line-height: 1.3;
+	padding-top: 10px;
+	padding-bottom: 150px;
+}
+.resiliencia-climatica-bloco-2-2-left-txt {
+	color: #f4bc2d;
+	font-size: 108px;
+	line-height: 1;
+	padding-top: 36px;
+	z-index: 1;
+	margin-right: -100px;
+	position: relative;
+	font-family: "Intro";
+	font-weight: bold;
+}
+.resiliencia-climatica-bloco-2-2-left {
+	grid-row: 1;
+	margin-left: -80px;
+	padding-top: 20px;
+}
+.resiliencia-climatica-bloco-2-2-rigth {
+	grid-column-start: 1;
+	grid-row: 1;
+	text-align: end;
+}
+.resiliencia-climatica-bloco-2-2-left-txt :nth-child(1) {
+	font-weight: bold;
+}
+.resiliencia-climatica-bloco-3 {
+	background-image: url("../assets/img/resiliencia-climatica/fundo-com-indicadores-reducao.png");
+	background-repeat: no-repeat;
+	background-color: #50a146;
+	padding-top: 0;
+	background-position: 0 0;
+	padding-bottom: 100px;
+}
+.resiliencia-climatica-bloco-3-1 {
+	color: white;
+}
+.resiliencia-climatica-bloco-3-1-txt-1 {
+	font-size: 20px;
+	text-align: center;
+	padding-right: 300px;
+	padding-top: 60px;
+}
+
+.resiliencia-climatica-bloco-3-1-txt-4 {
+	padding-right: 300px;
+	font-size: 45px;
+
+	text-align: center;
+}
+.resiliencia-climatica-bloco-3-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+.resiliencia-climatica-bloco-3-2-txt-1 {
+	color: #f4bc2d;
+	font-size: 250px;
+	text-align: end;
+	font-weight: 800;
+	padding-right: 50px;
+	font-family: "Intro";
+	font-weight: bold;
+}
+.resiliencia-climatica-bloco-3-3-2-tex {
+	color: white;
+	font-size: 45px;
+	line-height: 1;
+
+	padding-bottom: 35px;
+	font-family: "Raleway";
+}
+.resiliencia-climatica-bloco-3-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.resiliencia-climatica-bloco-3-3-2 {
+	grid-column: 1;
+	margin-left: auto;
+}
+button.resiliencia-climatica-bloco-3-3-2-button {
+	background: #f4bc2d;
+	border-radius: 20px;
+	color: #00322a;
+	font-weight: 700;
+	padding: 10px 10px 10px 10px;
+	border: none;
+	font-size: 18px;
+}
+.resiliencia-climatica-bloco-4-texto-icone {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+}
+.resiliencia-climatica-bloco-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 17px;
+}
+.resiliencia-climatica-bloco-4-1 {
+	background: #15352e;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+.resiliencia-climatica-bloco-4-2 {
+	background: #d34029;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+.resiliencia-climatica-bloco-4-3 {
+	background: #655046;
+	color: white;
+	padding: 40px 20px 10px 40px;
+}
+img.resiliencia-climatica-bloco-4-icone {
+	justify-self: end;
+
+	padding-right: 10px;
+}
+.resiliencia-climatica-bloco-4-texto.primeiro {
+	font-weight: 800;
+}
+.resiliencia-climatica-bloco-4-texto-icone {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	align-items: center;
+	padding-bottom: 25px;
+}
+@media screen and (max-width: 500px) {
+	.resiliencia-climatica-bloco-3-1-txt-1 {
+		padding-right: 0;
+	}
+	.porcentagem-sessenta {
+		margin-left: 0;
+	}
+	.resiliencia-climatica-bloco-2-1 {
+		grid-template-columns: 1fr;
+	}
+	.numero-sessente {
+		margin-left: 0;
+	}
+	.resiliencia-climatica-bloco-2-2 {
+		grid-template-columns: 1fr;
+	}
+	.resiliencia-climatica-bloco-2-2-left-txt {
+		text-align: center;
+		color: #f4bc2d;
+		font-size: 50px;
+
+		margin-right: 0;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	img.conteudo_06.new {
+		width: 150px;
+	}
+	.resiliencia-climatica-bloco-3-2-txt-1 {
+		padding-right: 0;
+		font-size: 200px;
+	}
+	img.conteudo_grafico-28 {
+		width: 180px;
+	}
+	.resiliencia-climatica-bloco-4 {
+		grid-template-columns: 1fr;
+	}
+	.resiliencia-climatica-bloco-1 span {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.resiliencia-climatica-bloco-1 {
+		background: #50a146;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.banner-resiliencia-climatica-bloco-1 {
+		padding-bottom: 110px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.resiliencia-climatica-bloco-3-3 {
+		display: grid;
+		padding-left: 15px;
+		grid-template-columns: 1fr;
+		padding-right: 15px;
+	}
+	.resiliencia-climatica-bloco-3-1-txt-4 {
+		padding-right: 0;
+	}
+	.resiliencia-climatica-bloco-2-left {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.ativosflorestais {
+		text-align: center;
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 30px;
+	}
+	.resiliencia-climatica-bloco-3 {
+		padding-bottom: 0;
+	}
+	.resiliencia-climatica-bloco-2-2-left {
+		margin-left: 0;
+	}
+	.resiliencia-climatica-bloco-3-3-2-tex {
+		padding-bottom: 0;
+	}
+	.resiliencia-climatica-bloco-3-1 {
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.resiliencia-climatica-bloco-3-1-txt-1 {
+		padding-left: 0;
+		line-height: 1;
+	}
+	.resiliencia-climatica-bloco-3-1-txt-2 {
+		padding-left: 0;
+	}
+	.resiliencia-climatica-bloco-3-1-txt-3 {
+		padding-left: 0;
+	}
+	.resiliencia-climatica-bloco-3-3-2 {
+		text-align: center;
+	}
+	.resiliencia-climatica-bloco-3-2 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

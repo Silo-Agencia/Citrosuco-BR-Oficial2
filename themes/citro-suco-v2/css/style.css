@@ -1,0 +1,1950 @@
+/* Modo dark */
+body [data-theme='dark'] {
+  background-color: #222 !important;
+  color: #eee;
+}
+
+[data-theme='dark'] nav.bg-light {
+  background-color: transparent !important;
+}
+
+[data-theme='dark'] .container-sub-menu {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+[data-theme='dark'] .btns-acessibilidade,
+[data-theme='dark'] .btns-informacoes {
+  color: #fff;
+}
+
+[data-theme='dark'] .icon-acessibilidade {
+  background: #fff;
+  color: #000;
+}
+
+[data-theme='dark'] .menu-container div.container {
+  background: rgba(0, 0, 0, 0.8);
+}
+[data-theme='dark'] .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+[data-theme='dark'] .container-citro-suco {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-theme='dark'] .text-citro-suco {
+  color: #fff;
+}
+
+[data-theme='dark'] .container-produtos-citro-suco {
+  background: rgba(0, 0, 0, 0.8);
+}
+[data-theme='dark'] .container-citrocultores-citro-suco {
+  background: rgba(0, 0, 0, 0.8);
+}
+[data-theme='dark'] .col-trabalhe-conosco {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-theme='dark'] .title-col-trabalhe-conosco {
+  color: #fff;
+}
+[data-theme='dark'] .col-fornecedores-img {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-theme='dark'] .text-fornecedores-citro-suco,
+[data-theme='dark'] .paragrafo-fornecedores-citro-suco {
+  color: #fff;
+}
+[data-theme='dark'] .col-fale-conosco {
+  background: rgba(0, 0, 0, 0.8);
+}
+[data-theme='dark'] .title-col-fale-conosco,
+[data-theme='dark'] .paragrafo-col-fale-conosco,
+[data-theme='dark'] .codigo-de-conduta,
+[data-theme='dark'] .codigo-de-conduta:hover {
+  color: #fff;
+}
+
+/*FIM - Modo dark */
+
+/*Dropdown Css*/
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu > a:after {
+  display: block;
+  content: ' ';
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+/*./Dropdown Css*/
+
+@font-face {
+  font-family: 'CitrosucoSansReg';
+  src: url('/wp-content/uploads/fonts/CitrosucoSans-Reg.otf');
+}
+@font-face {
+  font-family: 'CitrosucoSansBold';
+  src: url('/wp-content/uploads/fonts/CitrosucoSlab.otf');
+}
+
+p,
+div,
+a,
+li,
+ul,
+span,
+ol,
+input,
+label,
+button {
+  font-family: 'CitrosucoSansReg' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'CitrosucoSansBold' !important;
+}
+
+.custom-control-label::before {
+  display: none;
+}
+.custom-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 0 !important;
+}
+.custom-control-label {
+  cursor: pointer;
+}
+
+/* Botões de aumentar e diminuir fontes */
+.container-btns-icon-acessibilidade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.icon-acessibilidade {
+  border-radius: 50%;
+  background: #2f7240;
+  color: #fff;
+  border: solid 1px #fff;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* FIM - Botões de aumentar e diminuir fontes */
+
+.container-menu-size {
+  width: 100%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+  margin-top: -30px;
+}
+
+a.text-acessibilidade {
+  color: #2f7240 !important;
+}
+a:hover.text-acessibilidade {
+  color: #2f7240 !important;
+}
+
+.bg-light {
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.container-sub-menu {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  padding: 8px 25px;
+  background: #12ba00;
+  z-index: 1006;
+}
+.container-btns {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns-acessibilidade,
+.btns-informacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #2f7240;
+  font-weight: 500;
+  cursor: pointer;
+}
+.text-acessibilidade {
+  padding: 0 7.5px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #2f7240;
+}
+
+.menu-container div.container {
+  max-width: 1400px;
+  background: #fff;
+  padding: 10px 20px;
+  z-index: 1005;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.menus-list {
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2f7240;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.dropdown-item {
+  color: #2f7240;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#carouselExampleSlidesOnly {
+  z-index: -1;
+}
+
+.quem-somos-carousel {
+  margin-top: 25px;
+}
+
+.container-banner {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container-citro-suco {
+  max-width: 1400px;
+  margin: auto;
+  background: #12ba00;
+  padding: 50px;
+}
+.header-icon-social {
+  max-width: 15px;
+}
+.col-citro-suco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-citro-suco {
+  text-align: center;
+  color: #0c501b;
+  font-weight: 700;
+  font-size: 1.8rem;
+  max-width: 490px;
+}
+.paragrafo-citro-suco {
+  color: #fff;
+  text-align: center;
+  max-width: 500px;
+}
+
+.container-produtos-citro-suco {
+  max-width: 1400px;
+  margin: auto;
+  background: #623b17;
+}
+
+.col-produtos-img {
+  padding: 0;
+}
+.col-produtos-img img {
+  max-width: 100%;
+}
+.col-produtos {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-col-produtos {
+  padding: 0 40px;
+}
+.title-col-produtos {
+  color: #d5db4a;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-produtos {
+  color: #fff;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+.btn-col-produtos {
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #0c501b !important;
+}
+.btn-col-produtos:hover {
+  text-decoration: none;
+  color: #0c501b;
+}
+
+.container-laranja-citro-suco {
+  max-width: 1400px;
+  margin: auto;
+  background-image: url('/wp-content/uploads/2021/03/Home_11.png');
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: -2px;
+}
+.col-laranja-citro-suco {
+  padding: 0 50px;
+}
+.text-laranja-citro-suco {
+  color: #0c501b;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-laranja-citro-suco {
+  max-width: 360px;
+  color: #2d2d2d;
+  margin-bottom: 40px;
+}
+.btn-col-laranja-citro-suco {
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #2d2d2d;
+  font-weight: 500;
+}
+.btn-col-laranja-citro-suco:hover {
+  text-decoration: none;
+  color: #0c501b;
+}
+
+.col-sustentabilidade {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: url('/wp-content/uploads/2021/03/Home_13.png');
+  background-repeat: no-repeat;
+  padding: 0;
+  background-size: cover;
+  min-height: 400px;
+}
+.container-col-sustentabilidade,
+.container-col-novidades {
+  padding: 0 40px;
+}
+
+.col-novidades {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: url('/wp-content/uploads/2021/03/Home_16.jpg');
+  background-repeat: no-repeat;
+  padding: 0;
+  min-height: 400px;
+  background-size: cover;
+}
+
+.container-pessoas-citro-suco {
+  max-width: 1400px;
+  background-image: url('/wp-content/uploads/2021/01/bg-pessoas.jpg');
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: -2px;
+}
+.col-pessoas-citro-suco {
+  padding: 0 40px;
+}
+.text-pessoas-citro-suco {
+  color: #d5db4a;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-pessoas-citro-suco {
+  max-width: 500px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.btn-col-pessoas-citro-suco,
+.btn-col-pessoas-citro-suco:hover {
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #623b17;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container-citrocultores-citro-suco {
+  max-width: 1400px;
+  margin: auto;
+  background: #065118;
+}
+.col-citrocultores {
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.container-col-citrocultores {
+  padding: 0 40px;
+}
+
+.col-pessoas-img {
+  background-image: url('/wp-content/uploads/2021/03/Home_12.png');
+  padding: 0;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-trabalhe-conosco {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ff8a05;
+  padding: 0;
+}
+.container-col-trabalhe-conosco {
+  padding: 0 40px;
+}
+.title-col-trabalhe-conosco {
+  font-weight: 700;
+  color: #6e380c;
+  margin-bottom: 30px;
+}
+.paragrafo-col-trabalhe-conosco {
+  max-width: 500px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.col-fornecedores-img {
+  min-height: 400px;
+  background: #ebebd3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+.col-fornecedores-citro-suco,
+.container-col-fale-conosco {
+  padding: 0 40px;
+}
+.text-fornecedores-citro-suco {
+  font-weight: 700;
+  color: #6e380c;
+  margin-bottom: 30px;
+}
+.paragrafo-fornecedores-citro-suco {
+  color: #2d2d2d;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.btn-col-fornecedores-citro-suco,
+.btn-col-fornecedores-citro-suco:hover {
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #623b17;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.col-fale-conosco {
+  min-height: 400px;
+  background: #d3dd18;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+.title-col-fale-conosco {
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #009d01;
+}
+.paragrafo-col-fale-conosco {
+  max-width: 500px;
+  color: #0c501b;
+  margin-bottom: 40px;
+}
+.btn-col-fale-conosco,
+.btn-col-fale-conosco:hover {
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #009d01;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 5px;
+}
+.codigo-de-conduta,
+.codigo-de-conduta:hover {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline;
+}
+
+.container-muito-alem-do-suco {
+  max-width: 1400px;
+  margin: auto;
+  background: #ff8d00;
+}
+.title-col-muito-alem-do-suco {
+  color: #005008;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-muito-alem-do-suco {
+  color: #fff;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.container-pilares-de-sustentabilidade {
+  max-width: 1400px;
+  margin: auto;
+  background: #fff;
+}
+.title-col-pilares-de-sustentabilidade {
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #009d01;
+}
+.paragrafo-col-pilares-de-sustentabilidade {
+  margin: 40px 0px;
+  color: #000;
+}
+.container-icon-sustentabilidade {
+  margin: 5px 0;
+}
+.icon-sustentabilidade {
+  margin-right: 5px;
+}
+.text-sustentabilidade {
+  color: #000;
+}
+
+.container-relatorio-de-sustentabilidade {
+  max-width: 1400px;
+  margin: auto;
+  background: #634a14;
+}
+.title-col-relatorio-de-sustentabilidade {
+  color: #f3c034;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-relatorio-de-sustentabilidade {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.container-sustentabilidade {
+  max-width: 1400px;
+  margin: auto;
+  background: #fff;
+  padding: 0;
+}
+.row-sustentabilidade {
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.container-projetos-socioambientais {
+  max-width: 1400px;
+  margin: auto;
+  background: #d1e000;
+}
+.title-col-projetos-socioambientais {
+  color: #024f09;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-projetos-socioambientais {
+  color: #fff;
+  margin-bottom: 40px;
+}
+.container-programas {
+  max-width: 1400px;
+  margin: auto;
+  background: #67bb00;
+}
+.title-col-programa {
+  color: #005008;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.container-citrosuco-valorizamos {
+  max-width: 1400px;
+  margin: auto;
+  background: #ffc117;
+}
+.title-col-citrosuco-valorizamos {
+  color: #0c501b;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-citrosuco-valorizamos {
+  color: #4a4a4a;
+  margin-bottom: 40px;
+}
+.container-4pilares-de-sustentabilidade {
+  max-width: 1400px;
+  margin: auto;
+  background: #fff;
+}
+.col-4pilares-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-4pilares-img img {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px 0;
+}
+.pilares-4 {
+  font-size: 1.5rem;
+}
+.text-4pilares-dicas {
+  border-left: solid 5px #eba064;
+  padding: 10px;
+}
+.text-4pilares-dicas .pilares-4 {
+  color: #eba064;
+}
+.text-4pilares-integra {
+  border-left: solid 5px #f2ca72;
+  padding: 10px;
+}
+.text-4pilares-integra .pilares-4 {
+  color: #f2ca72;
+}
+.text-4pilares-reconhece {
+  border-left: solid 5px #a8ce73;
+  padding: 10px;
+}
+.text-4pilares-reconhece .pilares-4 {
+  color: #a8ce73;
+}
+.text-4pilares-antecipa {
+  border-left: solid 5px #008a3a;
+  padding: 10px;
+}
+.text-4pilares-antecipa .pilares-4 {
+  color: #008a3a;
+}
+
+.row-sustentabilidade {
+  padding: 0 0 50px 0;
+}
+.row-programas-container {
+  align-items: baseline;
+}
+.container-programas-all {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 0 30px;
+}
+.img-container-programas {
+  margin: 25px 0;
+  max-width: 360px;
+}
+a.btn-estagio,
+a.btn-estagio:hover {
+  color: #0c501b;
+  border-bottom: solid 1px #0c501b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container-trabalhe-conosco-socioambientais {
+  max-width: 1400px;
+  margin: auto;
+  background: #ff8a05;
+}
+.title-col-trabalhe-conosco-socioambientais {
+  color: #005008;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.paragrafo-col-trabalhe-conosco-socioambientais {
+  color: #005008;
+  margin-bottom: 40px;
+}
+
+.bg-btn-trabalhe-conosco {
+  background: #fff;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  padding: 15px 30px;
+  text-decoration: none !important;
+}
+.btn-trabalhe-conosco,
+.btn-trabalhe-conosco:hover {
+  color: #005008;
+  text-decoration: revert;
+  font-weight: 700;
+  margin: 0 2.5px;
+}
+
+#footer {
+  margin: auto;
+  background: #009d04;
+  min-height: 50px;
+  padding: 50px 25px;
+}
+.container-footer {
+  max-width: 1200px;
+  margin: auto;
+}
+.primary-container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-citro-suco-footer img {
+  max-width: 180px;
+}
+.redes-sociais-footer {
+  max-width: 18px;
+}
+
+.secondary-container-footer {
+  padding: 40px 0;
+}
+.container-secondary-footer {
+  padding: 0;
+}
+.col-footer-container,
+.copyright-footer {
+  color: #fff;
+  font-weight: 400;
+}
+.col-footer-container-1 {
+  color: #d6dc3b;
+  font-weight: 400;
+}
+
+.sustentabilidade-container {
+  max-width: 1348px;
+  margin: auto;
+}
+.lome .tg-item-date {
+  display: none !important;
+}
+div.tg-item-content h2.tg-item-title {
+  margin: 100px 0 0 0 !important;
+  text-align: left;
+  margin-top: 120px !important;
+  padding: 5px 10px !important;
+  min-height: 70px;
+  background: rgba(0, 0, 0, 0.5);
+}
+h2.tg-item-title,
+h2.tg-item-title a {
+  text-transform: unset !important;
+}
+#grid-106 .tg-item-overlay {
+  background-color: unset !important;
+}
+.tg-item-content {
+  margin: 0 !important;
+}
+
+.container-single-dicas.blog-dicas {
+  max-width: 1200px;
+  margin: 25px auto;
+}
+
+.container-single-noticias {
+  max-width: 1300px;
+  margin: auto;
+}
+.img-single-noticias {
+  text-align: center;
+}
+.img-single-noticias img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  max-width: 1200px;
+  object-fit: cover;
+}
+.container-article {
+  padding: 0 15px;
+}
+.title-noticias {
+  text-align: center;
+  margin: 30px 0;
+}
+
+form input,
+form optgroup,
+form select,
+form textarea {
+  border: solid 0;
+  border-bottom: solid 2px #4b9c26;
+}
+
+label {
+  margin: 20px 0 0;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+label.custom-control-label {
+  margin: 0;
+  color: unset;
+  font-size: 12px;
+  font-weight: unset;
+}
+
+.wpcf7-submit {
+  background: #4b9c26;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+form {
+  margin: 50px 0;
+}
+
+.et-ver-timeline-template-1 .et-all-contain-here {
+  border-radius: 10px;
+  box-shadow: 0px 15px 2rem rgb(0 0 0 / 30%);
+}
+
+.container-timeline {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.et-ver-timeline-template-1 .et-timeline-date span {
+  background: #fb581f !important;
+  color: #fff !important;
+  width: 75px;
+  height: 75px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50% !important;
+  border: solid 2px gray !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.et-ver-timeline-template-1 .et-timeline-circle {
+  border: solid 3px gray;
+}
+.et-ver-timeline-template-1 .et-timeline-line {
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
+}
+.et-image {
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.et-ver-timeline-template-1 .et-title,
+.et-ver-timeline-template-1 .et-content-outer-wrap {
+  display: none;
+}
+
+.title-col-quem-somos {
+  color: #d5db4a;
+  font-weight: 700;
+}
+.paragrafo-col-de-quem-somos {
+  max-width: 480px;
+  color: #fff;
+}
+
+.row-timeline-events {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.title-timeline-events {
+  font-size: 32px;
+  color: #fb581f;
+  font-weight: 700;
+}
+.paragrafo-timeline-events {
+  border-bottom: solid 2px #fb581f;
+  display: initial;
+}
+
+.time-timeline {
+  color: #777777;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.time-timeline.active-timeline {
+  color: #fb581f;
+  border-bottom: solid 2px #fb581f;
+}
+
+.et-video.et-common-wrap iframe {
+  width: 100%;
+  height: 300px;
+}
+
+#timeline-63-84,
+#timeline-89-12,
+#timeline-12 {
+  display: none;
+}
+
+#timeline-63-84.active-timeline,
+#timeline-89-12.active-timeline,
+#timeline-12.active-timeline {
+  display: block;
+}
+
+#title-timeline-63-84,
+#title-timeline-89-12,
+#title-timeline-12 {
+  display: none;
+}
+
+#title-timeline-63-84.active-timeline,
+#title-timeline-89-12.active-timeline,
+#title-timeline-12.active-timeline {
+  display: block;
+}
+
+#timeline-12 .et-ver-timeline-template-1 .et-timeline-date span {
+  background: #84bd00 !important;
+}
+
+#btn-timeline-12.active-timeline {
+  color: #84bd00;
+  border-bottom: solid 2px #84bd00;
+}
+#title-timeline-12.active-timeline .title-timeline-events {
+  color: #84bd00;
+}
+#title-timeline-12.active-timeline .paragrafo-timeline-events {
+  border-bottom: solid 2px #84bd00 !important;
+}
+
+#timeline-63-84 .et-ver-timeline-template-1 .et-timeline-date span {
+  background: #005215 !important;
+}
+#btn-timeline-63-84.active-timeline {
+  color: #005215;
+  border-bottom: solid 2px #005215;
+}
+#title-timeline-63-84.active-timeline .title-timeline-events {
+  color: #005215;
+}
+#title-timeline-63-84.active-timeline .paragrafo-timeline-events {
+  border-bottom: solid 2px #005215 !important;
+}
+
+.container-col-sustentabilidade-produtos {
+  padding: 0;
+  text-align: center;
+}
+.container-col-sustentabilidade-produtos img {
+  width: 100%;
+}
+.text-sustentabilidade-produtos {
+  margin: 0;
+}
+
+.container-paragrafos-sustentabilidade-produtos {
+  padding: 30px 15px;
+  min-height: 300px;
+}
+.text-sustentabilidade-produtos {
+  color: #232323;
+}
+
+.container-produtos-row img {
+  max-width: 100px;
+}
+
+.title-container-sustentabilidade-gestao {
+  max-width: 1200px;
+  margin: 40px auto;
+  color: #004f0d;
+}
+
+.container-parcerias-projetos {
+  background: #d2e000;
+}
+.title-parcerias-projetos {
+  color: #005008;
+}
+.paragrafo-parcerias-projetos {
+  color: #242424;
+}
+
+[class^='number-slide'],
+[class*=' number-slide'] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+.keen-slider__slide {
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-sustentabilidade-produtos div {
+  color: #fff !important;
+}
+.container-certificacoes {
+  background: #ff8a05;
+}
+
+.container-col-produtos-laranjas {
+  max-width: 1400px;
+  padding: 0;
+}
+.title-container-produtos {
+  position: absolute;
+  color: #fff;
+  padding: 24px;
+  font-size: 36px;
+  line-height: 36px;
+}
+.col-produtos-laranjas {
+  padding: 0;
+  max-width: 500px;
+}
+.row-produtos-laranjas {
+  margin: 0 !important;
+}
+.img-produtos-laranjas {
+  max-width: 470px;
+  width: 100%;
+  height: 300px;
+}
+
+.container-produtos-descricao {
+  padding: 15px 30px;
+  max-width: 450px;
+}
+.container-img-title-produtos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.title-produtos-descricao {
+  margin: 0 15px;
+  font-size: 20px;
+}
+.container-img-title-produtos img {
+  max-width: 120px;
+}
+
+.dropdown-toggle:hover .nav-link:hover .dropdown-menu.show {
+  display: block;
+}
+
+.container-banner-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-div-img {
+  max-width: 1400px;
+}
+.container-div-img img {
+  width: 100%;
+}
+
+.padding-col-produtos-laranjas {
+  padding: 30px 0 0;
+}
+
+.ingredientes-inovacoes-container-section {
+  background: #f3f3f3;
+}
+
+.bg-container-div-img {
+  background-image: url('/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_01.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 630px;
+  margin: auto;
+  background-size: cover;
+}
+.container-icons-fase {
+  max-width: 890px !important;
+  padding: 0;
+  margin: initial;
+  padding-left: 50px;
+}
+.row-icons-fase {
+  padding: 85px 0 0;
+  margin: 0;
+}
+.col-icons-fase {
+  max-width: 480px;
+  padding: 0;
+  margin: 0 5px;
+}
+.div-icons-fase {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.img-icons-fase {
+  max-width: 115px;
+  margin-right: 20px;
+}
+.title-icons-fase {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #005008;
+}
+.paragrafos-icons-fase {
+  color: #fff;
+  max-width: 300px;
+}
+
+.row-icons-fase-part2 {
+  padding: 20px 0 0;
+  margin: 0;
+}
+
+.bg-container-div-fase2 {
+  background-image: url('/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_02.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 630px;
+  margin: auto;
+  background-size: cover;
+  max-width: 1400px;
+}
+.div-icons-fase2 {
+  margin: 55px 0;
+}
+.title-icons-fase2 {
+  font-size: 1.6rem;
+  color: #6e380c;
+}
+
+.bg-container-div-img-fase3 {
+  background-image: url('/wp-content/uploads/2021/04/Cadeia-de-valor-Infograf-fase3_44.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 630px;
+  margin: auto;
+  background-size: cover;
+  max-width: 1400px;
+}
+.row-icons-fase3 {
+  padding: 75px 0 0;
+  margin: 0;
+}
+.title-icons-fase3 {
+  font-size: 1.6rem;
+  color: #009d01;
+}
+.paragrafos-icons-fase3 {
+  max-width: 300px;
+}
+
+.icons-title-fases img {
+  max-width: 320px;
+}
+
+.container-mapa-mundo {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.mapsvg-controller-view-content p,
+.mapsvg-controller-view-content h5 {
+  display: none;
+}
+
+.container-info-paises {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 30px;
+}
+.img-escritorio-paises img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.container-icons-brasil-para-o-mundo {
+  max-width: 1250px;
+  margin: 60px auto;
+}
+
+.container-info-brasil-para-o-mundo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.container-info-brasil-para-o-mundo img {
+  margin-right: 15px;
+}
+.container-info-brasil-para-o-mundo div {
+  margin: 0;
+  max-width: 320px;
+}
+.container-info-brasil-para-o-mundo div p {
+  margin: 0;
+}
+.col-icons-brasil-para-o-mundo {
+  margin: 20px 0 0;
+}
+
+.container-video-institucional-citro-suco {
+  max-width: 1400px;
+  margin: auto;
+  background-image: url(/wp-content/uploads/2021/03/Do-Brasil-para-o-Mundoi_31.png);
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.row-video-institucional-citro-suco {
+  width: 100%;
+}
+.col-video-institucional-citro-suco {
+  text-align: right;
+  margin-bottom: 40px;
+  flex-basis: unset;
+}
+
+.container-conceito-muito-alem-do-suco {
+  max-width: 1400px;
+  margin: auto;
+  background-image: url(/wp-content/uploads/2021/03/Do-Brasil-para-o-Mundoi_34.png);
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.col-conceito-muito-alem-do-suco {
+  padding: 50px;
+}
+.paragrafo-conceito-muito-alem-do-suco {
+  max-width: 500px;
+  color: #fff;
+  margin: 0;
+}
+
+.container-linha-do-tempo-new-page {
+  max-width: 1400px;
+  margin: auto;
+  background-image: url(/wp-content/uploads/2021/03/Do-Brasil-para-o-Mundoi_40.png);
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.row-missao-visao-valor {
+  justify-content: center;
+  align-items: flex-start;
+}
+.col-missao-visao-valor {
+  padding: 50px;
+}
+
+.container-missao-visao-valor-informs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 5px;
+}
+
+.container-missao-visao-valor-informs img {
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.container-missao-visao-valor-informs div p {
+  margin: 0;
+}
+.container-icons-missao-visao-valor {
+  padding: 0;
+}
+.title-missao-visao-valor-icons,
+.title-missao-visao-valor {
+  color: #d5db4a;
+  font-weight: 600;
+}
+.info-missao-visao-valor-icons,
+.paragrafo-missao-visao-valor {
+  color: #fff;
+}
+.div-text-missao-visao-valor {
+  margin-top: 15px;
+}
+.row-icons-missao-visao-valor {
+  margin: 40px 0;
+}
+.col-container-missao-visao-valor-infos {
+  padding: 0;
+}
+
+.container-missao-visao-valor {
+  margin: 0 0 60px 0;
+}
+
+.title-col_noticias {
+  color: #6e380c;
+}
+.paragrafo-col-_noticias {
+  color: #2d2d2d;
+}
+
+.container-laranja_Mito {
+  background-image: url(/wp-content/uploads/2021/03/Suco-de-laranja.png);
+}
+
+.container-tabela-nutricional {
+  max-width: 1400px;
+  margin: auto;
+}
+.container-tabela-nutricional img {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.container_voce_sabia {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 0 50px 0;
+}
+.title_voce_sabia {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0c501b;
+}
+
+.paragrafo-col-_noticias_nutritivas {
+  max-width: 450px;
+  color: #0c501b;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.title-conduta {
+  margin-bottom: -20px;
+  /* margin-top: -40px; */
+}
+.container-conduta_link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link_conduta {
+  color: #0c501b;
+  border-bottom: solid 1px;
+}
+.link_conduta:hover {
+  color: #0c501b;
+  border-bottom: solid 1px;
+  text-decoration: none;
+}
+
+.container-video_conduta-citro-suco {
+  background-image: url(/wp-content/uploads/2021/03/Govern-Video.png);
+}
+
+.row-icons_compliance {
+  padding: 40px 0;
+}
+.col-icons_compliance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-icons_compliance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-icons_compliance {
+  max-width: 100px;
+  margin-right: 10px;
+}
+.text-icons_compliance {
+  font-size: 20px;
+  color: #0c501b;
+}
+#ajaxsearchliteres1 {
+  left: 1100px !important;
+}
+
+.produtos-saudaveis img {
+  max-width: 100%;
+}
+.title-produtos-saudaveis {
+  color: #fec600;
+}
+.text-produtos-saudaveis {
+  color: #fff;
+  text-align: center;
+}
+.container-text-produtos-saudaveis {
+  padding: 40px;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-img-instituicoes-certificadoras {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.width-img {
+  text-align: center;
+}
+.width-img img {
+  max-width: 148px;
+}
+
+.container-produtos-all {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container-fornecedores-inform {
+  max-width: 1400px;
+}
+.col-fornecedores-info {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 480px;
+  max-height: 480px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+.is-form-style {
+  margin: 15px 0;
+}
+.modal-body {
+  height: 100px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.navbar-toggler:focus,
+button:focus,
+input:focus,
+textarea:focus,
+text:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.btn-header img {
+  max-width: 35px;
+  height: 35px;
+}
+.btn-header {
+  padding: 3px !important;
+}
+
+a:not([href]):not([tabindex]) {
+  display: none;
+}
+
+.container-btn-covid {
+  position: fixed;
+  top: 70%;
+  margin-right: 1%;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.link-btn-covid {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 165px;
+  z-index: 1;
+}
+h2.btn-covid {
+  font-size: 1rem;
+}
+
+.et-ver-timeline-template-1 .et-content-outer-wrap {
+  display: none !important;
+}
+
+a.category {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1310px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .navbar-brand img {
+    max-width: 150px;
+  }
+  .btn-header img {
+    max-width: 30px;
+  }
+}
+@media screen and (min-width: 1270px) and (max-width: 1310px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-light {
+    margin-top: 25px;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff !important;
+    z-index: 5;
+    padding: 10px !important;
+  }
+  .menu-container div.container {
+    position: relative;
+  }
+  .container-icons-fase {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .icons-title-fases {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .col-icons-fase {
+    flex-basis: unset;
+  }
+  .paragrafos-icons-fase {
+    max-width: unset;
+  }
+  .div-icons-fase {
+    margin: 15px;
+    justify-content: start;
+  }
+  .bg-container-div-img-fase3,
+  .bg-container-div-img {
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .col-icons-display-none {
+    display: none;
+  }
+  .bg-container-div-img,
+  .bg-container-div-fase2,
+  .bg-container-div-img-fase3 {
+    background-image: unset;
+  }
+  .bg-container-div-img {
+    background: #67bb01;
+  }
+  .bg-container-div-fase2 {
+    background: #fec200;
+  }
+  .bg-container-div-img-fase3 {
+    background: #ebebd3;
+  }
+  .container-icons-fase2 {
+    max-width: 890px;
+    margin: initial;
+    padding: 0;
+    padding-top: 40px;
+  }
+  .icons-title-fases {
+    text-align: right;
+    padding: 60px 0 0;
+    margin-bottom: -40px;
+  }
+  .row-icons-fase2 {
+    padding: 50px 30px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container-sub-menu {
+    display: block;
+  }
+  .text-acessibilidade {
+    padding: 0 2.5px;
+  }
+  #carouselExampleSlidesOnly {
+    margin-top: 0;
+  }
+  .col-citro-suco {
+    padding: 0;
+  }
+  .row-produtos {
+    display: block;
+  }
+  .container-col-produtos {
+    padding: 40px;
+  }
+  .container-laranja-citro-suco {
+    background-position-x: center;
+  }
+  .container-pessoas-citro-suco {
+    background-position-x: center;
+  }
+  .container-col-citrocultores {
+    padding: 40px;
+  }
+  #mobile-none {
+    display: none !important;
+  }
+  .container-btn-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-col-fale-conosco,
+  .btn-col-fale-conosco:hover {
+    max-width: 220px;
+  }
+  .btn-col-produtos {
+    max-width: 220px;
+    margin: 2.5px;
+  }
+  .container-col-trabalhe-conosco {
+    padding: 60px 40px;
+  }
+  .col-pessoas-img {
+    background-position-x: -100px;
+  }
+  .container-timeline {
+    margin: 50px;
+  }
+  .paragrafo-col-pilares-de-sustentabilidade {
+    margin: 0;
+  }
+  #acessibilidade-desktop-none {
+    display: none;
+  }
+  .title-container-sustentabilidade-gestao {
+    padding: 0 20px;
+  }
+  .container-mobile-icons-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-social-mobile {
+    margin: 0 10px;
+  }
+  .mobile-navbar-ul {
+    padding: 10px 30px;
+  }
+  .container-sub-menu-mobile {
+    background: #ebebd3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+
+  .container-sub-menu-mobile a {
+    color: #2f7240 !important;
+  }
+  #desktop-none.bg-light {
+    margin-bottom: 15px;
+  }
+
+  #desktop-none a.navbar-brand {
+    margin-right: 5rem;
+  }
+
+  .page242 #produto-ingredientes,
+  .page242 #produto-inovacao-da-laranja {
+    display: none;
+  }
+  .col-produtos-laranjas {
+    flex-basis: unset;
+  }
+
+  .page277 #produto-inovacao-da-laranja,
+  .page277 #produto-suco-de-laranja {
+    display: none;
+  }
+  .container-tabela-nutricional img {
+    display: none;
+  }
+  .container-tabela-nutricional p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ebebd4;
+    margin: 0;
+    padding: 40px 0;
+    color: orange;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .container-tabela-nutricional a {
+    color: orange;
+    text-decoration: unset;
+  }
+
+  .title-conduta {
+    margin-bottom: 10px;
+  }
+  .container-conduta_link {
+    margin-top: 20px;
+  }
+
+  .container-col-condutas {
+    padding: 0 40px !important;
+  }
+  .row-icons_compliance {
+    padding: 0px;
+  }
+  .col-icons_compliance {
+    padding: 20px 0;
+  }
+  .container-img-instituicoes-certificadoras {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+  }
+  .container-produtos-all {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container-tabela-nutricional p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .img-container-programas {
+    margin: 25px 0;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #desktop-none {
+    display: none;
+  }
+  .col-produtos-img img {
+    min-height: 500px;
+  }
+  .col-programas-img img {
+    min-height: 400px;
+  }
+  .container-produtos-citro-suco .col-produtos-img img {
+    min-height: unset;
+  }
+
+  .col.col-1-1-form,
+  .col.col-2-1-form,
+  .col.col-2-2-form,
+  .col.col-3-1-form {
+    flex-grow: unset;
+  }
+  .col.col-3-1-form select {
+    width: 320px;
+  }
+  textarea,
+  select {
+    width: 100%;
+  }
+  .col-timeline-events {
+    padding: 0 50px;
+  }
+  .col-sustentabilidade-img img {
+    min-height: 400px;
+  }
+  #produto-ingredientes-mobile,
+  #produto-inovacao-da-laranja-mobile {
+    display: none;
+  }
+  .menu-container div.container {
+    top: 30px;
+  }
+  .youtube {
+    margin-right: 8px !important;
+  }
+  .linkedin {
+    margin-right: 23px !important;
+  }
+  .facebook {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-banner-desktop {
+    display: none;
+  }
+  .btn-col-laranja-citro-suco {
+    padding: 10px 30px;
+  }
+  .img-icons-fase {
+    max-width: 100px;
+  }
+  .row-icons-fase2 {
+    padding: 50px 0;
+  }
+  .col-missao-visao-valor {
+    padding: 50px 50px 0;
+  }
+  .row-icons-missao-visao-valor {
+    margin: 0;
+  }
+  .container-missao-visao-valor-informs {
+    margin: 10px 5px;
+  }
+  .container-produtos-all {
+    display: block;
+  }
+  .col-fornecedores-info .btn-col-produtos {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 420px) {
+  .container-banner-mobile {
+    display: none;
+  }
+  .container-missao-visao-valor-informs {
+    margin: 20px 0;
+  }
+}
