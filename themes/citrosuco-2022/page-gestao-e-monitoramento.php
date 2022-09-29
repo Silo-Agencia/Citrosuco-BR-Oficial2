@@ -156,14 +156,14 @@
 					<img data-toggle="modal" data-target="#modalvideo2" class="vid" src="<?php echo get_template_directory_uri(); ?>/assets/img/img-produtor/thumb_2.png" />
 					<p>Verificação in Loco</p>
 				</div>
-				<!-- <div class="videoitem col-12 col-lg-4">
+				<div class="videoitem col-12 col-lg-4">
 
 					<div class="modal fade" id="modalvideo3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
 									<video controls>
-										<source src="<?php echo get_template_directory_uri(); ?>/assets/video/video3.mp4" type="video/mp4">
+										<source src="<?php echo get_template_directory_uri(); ?>/assets/video/video3-analise-de-documentos.mp4" type="video/mp4">
 										Seu browser não suporta vídeos.
 									</video>
 								</div>
@@ -171,8 +171,9 @@
 						</div>
 					</div>
 
-					<img data-toggle="modal" data-target="#modalvideo3" class="vid" src="<?php echo get_template_directory_uri(); ?>/assets/img/img-produtor/video.png" />
-				</div> -->
+					<img data-toggle="modal" data-target="#modalvideo2" class="vid" src="<?php echo get_template_directory_uri(); ?>/assets/img/img-produtor/thumb_03.png" />
+					<p>Análise de Documentos</p>
+				</div>
 				<div class="col-12 text-center ijisd">
 					<a target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/misc/gestao-e-monitoramento-v2.pdf">
 						<span>Baixe a cartilha do<br> Programa de Gestão<br> & Monitoramento</span>
