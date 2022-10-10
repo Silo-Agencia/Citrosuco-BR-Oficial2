@@ -81,6 +81,7 @@
                         <p>Na Citrosuco, acreditamos que o que cultivamos hoje transforma o amanhã. Estimulamos a se desafiarem, pensarem "fora da caixa", se envolverem, proporem melhorias e assumirem o protagonismo de sua carreira. </p>
 
                     </div>
+                      
                 </div>
                 <div class="col-12 col-md-6 nossosprogramasbloco2">
                     <img class="imgparatodos" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/para-todos.png">
@@ -90,11 +91,11 @@
 
                         <h3>Programa de diversidade </h3>
 
-                        <p> Na Citrosuco, temos o programa Para Todos. Com ele. fortalecemos a cultura plural e significativa da diversidade. Em julho, na semana que envolve o Dia do Orgulho LGBTQIA+, colocamos em prática o trabalho que estamos construindo para um mundo mais inclusivo. </p>
-                        
-                        <p>Trabalhamos temas que valorizam a reflexão. importância da diversidade e o conhecimento do assunto. Assim. muito além de aceitar, estamos dispostos a lutar por um ambiente de trabalho e uma sociedade que reconhecem a individualidade. Aqui na Citrosuco já iniciamos a mudança que queremos para o mundo! </p>
-
-                    </div>        
+                        <p>A Citrosuco atuando de forma consistente na elevação das práticas ESG, reforça seus compromissos em relação a diversidade, equidade e inclusão. Buscando reafirmar nosso posicionamento e ampliar sua rede de influência a atuação, firmamos duas parcerias recentemente com o Movimento MULHER 360 e a Iniciativa Empresarial pela Igualdade Racial, que nos apoiarão na promoção de equidade de gênero e empoderamento feminino e promoção e valorização da diversidade étnico-racial.</p>
+                       
+                    </div>
+                    <img class="imgparatodos" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
+                    <img class="imgparatodos" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
                 </div>
             </div>
         </div>
