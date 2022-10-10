@@ -41,7 +41,7 @@
 
                 <p>Para conhecer, analisar e resolver qualquer questão referente ao Código de Conduta, a Citrosuco mantém uma Ouvidoria, canal que pode ser acessado pelo público interno e externo. Imparcial e transparente, o Canal de Conduta garante a confidencialidade das informações, preservando a identidade das pessoas envolvidas e colaborando para a promoção de um ambiente melhor para todos.</p>
 
-                <a class="btn-col-produtos" href="/assets/uploads/2022/codigo-de-conduta.pdf" target="_blank">Leia o código de conduta</a>
+                <a class="btn-col-produtos" href="https://www.citrosuco.com.br/wp-content/themes/citrosuco-2022/assets/ulpoads/2022/codigo-de-conduta.pdf" target="_blank">Leia o código de conduta</a>
                 <a class="btn-col-produtos" href="https://www.contatoseguro.com.br/citrosuco" target="_blank">Acesse o canal de conduta</a>
             </div>
             
