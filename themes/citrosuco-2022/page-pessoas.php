@@ -83,7 +83,9 @@
                     </div>
                       
                 </div>
-                <div class="col-12 col-md-6 nossosprogramasbloco2">
+
+                <!-- Desktop -->
+                <div class="col-12 col-md-6 nossosprogramasbloco2 d-none d-md-block">
                     <img class="imgparatodos" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/para-todos.png">
                     <div class="nossosprogramastxt2">
 
@@ -95,22 +97,38 @@
                        
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6 nossosprogramasbloco2 d-none d-md-block">
+                        <div class="col-12 col-md-6 nossosprogramasbloco2">
                             <img class="logo-programDivercidade-360-mulher" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
                         </div>
-                        <div class="col-12 col-md-6 nossosprogramasbloco2 d-none d-md-block">
-                        <img class="logo-programaDiversidade-incentiva" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="d-block d-md-none">
-                            <img class="logo-programDivercidade-360-mulher" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
-                        </div>
-                        <div class="d-block d-md-none">
+                        <div class="col-12 col-md-6 nossosprogramasbloco2">
                         <img class="logo-programaDiversidade-incentiva" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
                         </div>
                     </div>
                 </div>
+                <!-- Fim Desktop -->
+
+                <!-- Mobile -->
+                <div class="col-12 col-md-6 d-block d-md-none">
+                    <img class="imgparatodos" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/para-todos.png">
+                    <div class="nossosprogramastxt2">
+
+                        <hr>
+
+                        <h3>Programa de diversidade </h3>
+
+                        <p>A Citrosuco atuando de forma consistente na elevação das práticas ESG, reforça seus compromissos em relação a diversidade, equidade e inclusão. Buscando reafirmar nosso posicionamento e ampliar sua rede de influência a atuação, firmamos duas parcerias recentemente com o Movimento MULHER 360 e a Iniciativa Empresarial pela Igualdade Racial, que nos apoiarão na promoção de equidade de gênero e empoderamento feminino e promoção e valorização da diversidade étnico-racial.</p>
+                       
+                    </div>
+                    <div class="row">
+                        <div>
+                            <img class="logo-programDivercidade-360-mulher" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
+                        </div>
+                        <div>
+                        <img class="logo-programaDiversidade-incentiva" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Mobile -->
             </div>
         </div>
     </section>
