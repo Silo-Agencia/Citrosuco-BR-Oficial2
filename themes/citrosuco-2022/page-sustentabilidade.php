@@ -554,7 +554,7 @@
 						transparência. </p>
 					<p>Acesse abaixo os Relatórios de Sustentabilidade das últimas safras. </p>
 					<br>
-					<a target="_blank" href="https://citrosuco2021.blendon.com.br/">
+					<a target="_blank" href="https://relatorioanual2021.citrosuco.com.br/">
 						<button class="btn-produtos veresq">Veja mais</button>
 					</a>
 				</div>
