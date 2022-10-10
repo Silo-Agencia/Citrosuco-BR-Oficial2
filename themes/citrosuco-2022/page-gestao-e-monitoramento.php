@@ -122,7 +122,7 @@
 			<div class="row justify-content-center">
 				<div class="videoitem col-12 col-lg-4">
 
-					<div class="modal fade" id="modalvideo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal fade" id="modalvideo1" tabindex="-1" role="dialog" aria-labelledby="modalvideo1" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
@@ -140,7 +140,7 @@
 				</div>
 				<div class="videoitem col-12 col-lg-4">
 
-					<div class="modal fade" id="modalvideo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal fade" id="modalvideo2" tabindex="-1" role="dialog" aria-labelledby="modalvideo2" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
@@ -158,11 +158,11 @@
 				</div>
 				<div class="videoitem col-12 col-lg-4">
 
-					<div class="modal fade" id="modalvideo3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal fade" id="modalvideo3" tabindex="-1" role="dialog" aria-labelledby="modalvideo3" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
-									<video controls>
+									<video style="width: 100%;" controls>
 										<source src="<?php echo get_template_directory_uri(); ?>/assets/video/video3-analise-de-documentos.mp4" type="video/mp4">
 										Seu browser não suporta vídeos.
 									</video>
@@ -171,7 +171,7 @@
 						</div>
 					</div>
 
-					<img data-toggle="modal" data-target="#modalvideo2" class="vid" src="<?php echo get_template_directory_uri(); ?>/assets/img/img-produtor/thumb_03.png" />
+					<img data-toggle="modal" data-target="#modalvideo3" class="vid" src="<?php echo get_template_directory_uri(); ?>/assets/img/img-produtor/thumb_03.png" />
 					<p>Análise de Documentos</p>
 				</div>
 				<div class="col-12 text-center ijisd">
