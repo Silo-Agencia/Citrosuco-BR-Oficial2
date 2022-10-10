@@ -95,10 +95,18 @@
                        
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6 nossosprogramasbloco2">
+                        <div class="col-12 col-md-6 nossosprogramasbloco2 d-none d-md-block">
                             <img class="logo-programDivercidade-360-mulher" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
                         </div>
-                        <div class="col-12 col-md-6 nossosprogramasbloco2">
+                        <div class="col-12 col-md-6 nossosprogramasbloco2 d-none d-md-block">
+                        <img class="logo-programaDiversidade-incentiva" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-block d-md-none">
+                            <img class="logo-programDivercidade-360-mulher" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_360_mulher.png">  
+                        </div>
+                        <div class="d-block d-md-none">
                         <img class="logo-programaDiversidade-incentiva" src="<?php echo get_template_directory_uri(); ?>/assets/img/pessoas/logo_iniciativa_empresarial.png">         
                         </div>
                     </div>
