@@ -266,13 +266,13 @@
                                 <div class="container-relatorios-hidden row justify-content-center">
                                     <div class="col-12 col-md-4">
                                         <a href="<?php echo get_template_directory_uri(); ?>/assets/misc/protecitrus_2022-12-15.pdf" target="_blank">
-                                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2021/05/Icones_Protecitrus.png">
+                                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/12/Icones_Protecitrus.png">
                                             <p class="text-laranja-citro-suco">Produtos para Proteção da Citricultura</p>
                                         </a>
                                     </div>
                                     <div class="col-12 col-md-4">
                                         <a href="<?php echo get_template_directory_uri(); ?>/assets/misc/lmr_2022-12-15.pdf" target="_blank">
-                                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2021/05/Icones_LMR.png">
+                                            <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/12/Icones_LMR.png">
                                             <p class="text-laranja-citro-suco">LMR - Limite Máximo de Resíduos</p>
                                         </a>
                                     </div>
