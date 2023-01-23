@@ -14,9 +14,6 @@
         <div class="item">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/04.jpg">
         </div>
-        <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/05.jpg">
-        </div>
     </div>
 </section>
 

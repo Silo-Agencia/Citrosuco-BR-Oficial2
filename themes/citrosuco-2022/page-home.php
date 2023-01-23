@@ -2,19 +2,24 @@
 <section class="sliderTopo">
 	<div class="slider">
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/01.jpg">
+			<a href="https://www.citrosuco.com.br/compromissos/"> 
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/01.jpg">
+			</a>
 		</div>
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/02.jpg">
+			<a href="https://everaingredients.com/"> 
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/02.jpg">
+			</a>
 		</div>
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/03.jpg">
+			<a href="https://www.citrosuco.com.br/produtos/"> 
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/03.jpg">
+			</a>
 		</div>
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/04.jpg">
-		</div>
-		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/05.jpg">
+			<a href="https://relatorioanual2021.citrosuco.com.br/"> 
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/04.jpg">
+			</a>
 		</div>
 	</div>
 </section>
