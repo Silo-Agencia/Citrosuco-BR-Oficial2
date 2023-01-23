@@ -1,26 +1,26 @@
 <?php get_header(); ?>
 <section class="sliderTopo">
 	<div class="slider">
-		<div class="item">
-			<a href="https://www.citrosuco.com.br/compromissos/"> 
+		<a href="https://www.citrosuco.com.br/compromissos/"> 
+			<div class="item">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/01.jpg">
-			</a>
-		</div>
-		<div class="item">
-			<a href="https://everaingredients.com/"> 
+			</div>
+		</a>
+		<a href="https://everaingredients.com/"> 
+			<div class="item">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/02.jpg">
-			</a>
-		</div>
-		<div class="item">
-			<a href="https://www.citrosuco.com.br/produtos/"> 
+			</div>
+		</a>
+		<a href="https://www.citrosuco.com.br/produtos/"> 
+			<div class="item">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/03.jpg">
-			</a>
-		</div>
-		<div class="item">
-			<a href="https://relatorioanual2021.citrosuco.com.br/"> 
+			</div>
+		</a>
+		<a href="https://relatorioanual2021.citrosuco.com.br/"> 
+			<div class="item">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/04.jpg">
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 </section>
 <section class="container-citro-suco">
