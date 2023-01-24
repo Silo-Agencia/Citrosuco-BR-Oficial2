@@ -1,69 +1,68 @@
 //PORTUGUES
 /* Modo dark */
-body [data-theme='dark'] {
+body [data-theme="dark"] {
 	background-color: #222 !important;
 	color: #eee;
 }
 
-[data-theme='dark'] nav.bg-light {
+[data-theme="dark"] nav.bg-light {
 	background-color: transparent !important;
 }
 
-
-[data-theme='dark'] .container-sub-menu {
+[data-theme="dark"] .container-sub-menu {
 	background: rgba(0, 0, 0, 0.8);
 }
 
-[data-theme='dark'] .btns-acessibilidade,
-[data-theme='dark'] .btns-informacoes {
+[data-theme="dark"] .btns-acessibilidade,
+[data-theme="dark"] .btns-informacoes {
 	color: #fff;
 }
 
-[data-theme='dark'] .icon-acessibilidade {
+[data-theme="dark"] .icon-acessibilidade {
 	background: #fff;
 	color: #000;
 }
 
-[data-theme='dark'] .menu-container div.container {
+[data-theme="dark"] .menu-container div.container {
 	background: rgba(0, 0, 0, 0.8);
 }
-[data-theme='dark'] .navbar-light .navbar-nav .nav-link {
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link {
 	color: #fff;
 }
 
-[data-theme='dark'] .container-citro-suco {
+[data-theme="dark"] .container-citro-suco {
 	background: rgba(0, 0, 0, 0.5);
 }
-[data-theme='dark'] .text-citro-suco {
+[data-theme="dark"] .text-citro-suco {
 	color: #fff;
 }
 
-[data-theme='dark'] .container-produtos-citro-suco {
+[data-theme="dark"] .container-produtos-citro-suco {
 	background: rgba(0, 0, 0, 0.8);
 }
-[data-theme='dark'] .container-citrocultores-citro-suco {
+[data-theme="dark"] .container-citrocultores-citro-suco {
 	background: rgba(0, 0, 0, 0.8);
 }
-[data-theme='dark'] .col-trabalhe-conosco {
+[data-theme="dark"] .col-trabalhe-conosco {
 	background: rgba(0, 0, 0, 0.5);
 }
-[data-theme='dark'] .title-col-trabalhe-conosco {
+[data-theme="dark"] .title-col-trabalhe-conosco {
 	color: #fff;
 }
-[data-theme='dark'] .col-fornecedores-img {
+[data-theme="dark"] .col-fornecedores-img {
 	background: rgba(0, 0, 0, 0.5);
 }
-[data-theme='dark'] .text-fornecedores-citro-suco,
-[data-theme='dark'] .paragrafo-fornecedores-citro-suco {
+[data-theme="dark"] .text-fornecedores-citro-suco,
+[data-theme="dark"] .paragrafo-fornecedores-citro-suco {
 	color: #fff;
 }
-[data-theme='dark'] .col-fale-conosco {
+[data-theme="dark"] .col-fale-conosco {
 	background: rgba(0, 0, 0, 0.8);
 }
-[data-theme='dark'] .title-col-fale-conosco,
-[data-theme='dark'] .paragrafo-col-fale-conosco,
-[data-theme='dark'] .codigo-de-conduta,
-[data-theme='dark'] .codigo-de-conduta:hover {
+[data-theme="dark"] .title-col-fale-conosco,
+[data-theme="dark"] .paragrafo-col-fale-conosco,
+[data-theme="dark"] .codigo-de-conduta,
+[data-theme="dark"] .codigo-de-conduta:hover {
 	color: #fff;
 }
 
@@ -90,7 +89,7 @@ body [data-theme='dark'] {
 }
 .dropdown-submenu > a:after {
 	display: block;
-	content: ' ';
+	content: " ";
 	float: right;
 	width: 0;
 	height: 0;
@@ -155,8 +154,6 @@ body [data-theme='dark'] {
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 	margin-top: -30px;
 }
-
-
 
 .bg-light {
 	background-color: transparent !important;
@@ -430,7 +427,7 @@ a.text-acessibilidade {
 .container-laranja-citro-suco {
 	max-width: 100%;
 	margin: auto;
-	background-image: url('/wp-content/uploads/2021/03/Home_11.png');
+	background-image: url("/wp-content/uploads/2021/03/Home_11.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 500px;
@@ -484,7 +481,7 @@ a.text-acessibilidade {
 
 .container-pessoas-citro-suco {
 	max-width: 1400px;
-	background-image: url('/wp-content/uploads/2021/01/bg-pessoas.jpg');
+	background-image: url("/wp-content/uploads/2021/01/bg-pessoas.jpg");
 	background-repeat: no-repeat;
 	min-height: 400px;
 	background-size: cover;
@@ -1144,8 +1141,8 @@ form {
 	color: #242424;
 }
 
-[class^='number-slide'],
-[class*=' number-slide'] {
+[class^="number-slide"],
+[class*=" number-slide"] {
 	background: grey;
 	display: flex;
 	align-items: center;
@@ -1238,7 +1235,7 @@ form {
 }
 
 .bg-container-div-img {
-	background-image: url('/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_01.jpg');
+	background-image: url("/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_01.jpg");
 	background-repeat: no-repeat;
 	background-position-x: center;
 	min-height: 630px;
@@ -1285,7 +1282,7 @@ form {
 }
 
 .bg-container-div-fase2 {
-	background-image: url('/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_02.jpg');
+	background-image: url("/wp-content/uploads/2021/03/Cadeia-de-valor-Infograf_02.jpg");
 	background-repeat: no-repeat;
 	background-position-x: center;
 	min-height: 630px;
@@ -1302,7 +1299,7 @@ form {
 }
 
 .bg-container-div-img-fase3 {
-	background-image: url('/wp-content/uploads/2021/04/Cadeia-de-valor-Infograf-fase3_44.png');
+	background-image: url("/wp-content/uploads/2021/04/Cadeia-de-valor-Infograf-fase3_44.png");
 	background-repeat: no-repeat;
 	background-position-x: center;
 	min-height: 630px;
@@ -1991,7 +1988,7 @@ a.category {
 				}
 			}
 			&:before {
-				content: '';
+				content: "";
 				display: inline-block;
 				width: 20px;
 				height: 20px;
@@ -2276,7 +2273,7 @@ secton.image {
 				margin-bottom: 20px;
 			}
 			h2 {
-				color: #50A146;
+				color: #50a146;
 				display: block;
 				font-size: 24px;
 				margin-bottom: 20px;
@@ -2493,7 +2490,6 @@ secton.image {
 	}
 }
 
-
 .cadeia {
 	background-color: #fbe7cd;
 	background-image: url(assets/img/bg-caide.jpg);
@@ -2516,7 +2512,7 @@ secton.image {
 		border-left: 0px;
 		padding-left: 0px;
 		margin: 0px;
-	}    
+	}
 	.icones-mob {
 		text-align: center;
 		.img {
@@ -2540,18 +2536,21 @@ secton.image {
 		}
 		.linha1 {
 			margin-bottom: 40px;
-			h2, h3 {
+			h2,
+			h3 {
 				color: #005e33;
 			}
 		}
 		.linha2 {
 			margin-bottom: 40px;
-			h2, h3 {
+			h2,
+			h3 {
 				color: #f79431;
 			}
 		}
 		.linha3 {
-			h2, h3 {
+			h2,
+			h3 {
 				color: #655046;
 			}
 		}
@@ -2693,7 +2692,7 @@ secton.image {
 
 .videomodal {
 	.modal-content {
-		background-color: rgba(0,0,0,0);
+		background-color: rgba(0, 0, 0, 0);
 		.modal-body {
 			padding: 0px;
 			video {
@@ -2704,7 +2703,7 @@ secton.image {
 }
 
 .vejamais {
-	[data-dismiss='modal'] {
+	[data-dismiss="modal"] {
 		text-align: right;
 		display: block;
 		user-select: none;
@@ -3014,7 +3013,7 @@ secton.image {
 		&:before {
 			top: 0px;
 			left: 0px;
-			content: '';
+			content: "";
 			position: absolute;
 			display: block;
 			width: 100%;
@@ -3029,7 +3028,7 @@ secton.image {
 		&:before {
 			top: 0px;
 			left: 0px;
-			content: '';
+			content: "";
 			position: absolute;
 			display: block;
 			width: 100%;
@@ -3086,85 +3085,84 @@ secton.image {
 section {
 	&.pagina-nova {
 		overflow: hidden;
-		background-color: #15352E;
-	    margin-top: 100px;
-	    &.bio {
-	    	background-color: #005E33;
-		    .topo {
+		background-color: #15352e;
+		margin-top: 100px;
+		&.bio {
+			background-color: #005e33;
+			.topo {
 				padding-top: 100px;
 				padding-bottom: 100px;
-		    	background-image: url(assets/img/paginas-novas/agua/Untitled-2.png);
-		    	background-repeat: no-repeat;
-		    	background-size: 50% auto;
-		    	background-position: right top;
-		    	.oitenta {
-		    		margin-left: -5%;
-		    	}
-		    }
-	    }
-	    .margin-bot-maior {
-	    	margin-top: 400px;
-	    	margin-bottom: 100px;
-	    }
-	    .margin-bot {
-	    	margin-bottom: 100px;
-	    }
-	    .topo {
+				background-image: url(assets/img/paginas-novas/agua/Untitled-2.png);
+				background-repeat: no-repeat;
+				background-size: 50% auto;
+				background-position: right top;
+				.oitenta {
+					margin-left: -5%;
+				}
+			}
+		}
+		.margin-bot-maior {
+			margin-top: 400px;
+			margin-bottom: 100px;
+		}
+		.margin-bot {
+			margin-bottom: 100px;
+		}
+		.topo {
 			padding-top: 100px;
 			padding-bottom: 100px;
-	    	background-image: url(assets/img/paginas-novas/agua2/topo.png);
-	    	background-repeat: no-repeat;
-	    	background-size: 100% auto;
-	    	background-position: right top;
-	    	.oitenta {
-	    		margin-left: -5%;
-	    	}
-	    }
+			background-image: url(assets/img/paginas-novas/agua2/topo.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: right top;
+			.oitenta {
+				margin-left: -5%;
+			}
+		}
 	}
 }
 
 @media screen and (max-width: 992px) {
-
 	section {
 		&.pagina-nova {
 			overflow: hidden;
-			background-color: #15352E;
-		    margin-top: 100px;
-		    .txt {
-		    	margin-top: 30px;
-		    }
-		    &.bio {
-		    	background-color: #005E33;
-			    .topo {
+			background-color: #15352e;
+			margin-top: 100px;
+			.txt {
+				margin-top: 30px;
+			}
+			&.bio {
+				background-color: #005e33;
+				.topo {
 					padding-top: 100px;
 					padding-bottom: 100px;
-			    	background-image: url(assets/img/paginas-novas/agua/Untitled-2.png);
-			    	background-repeat: no-repeat;
-			    	background-size: 50% auto;
-			    	background-position: right top;
-			    	.oitenta {
-			    		margin-left: 0px;
-			    	}
-			    }
-		    }
-		    .margin-bot-maior {
-		    	margin-top: 100px;
-		    	margin-bottom: 100px;
-		    }
-		    .margin-bot {
-		    	margin-bottom: 100px;
-		    }
-		    .topo {
+					background-image: url(assets/img/paginas-novas/agua/Untitled-2.png);
+					background-repeat: no-repeat;
+					background-size: 50% auto;
+					background-position: right top;
+					.oitenta {
+						margin-left: 0px;
+					}
+				}
+			}
+			.margin-bot-maior {
+				margin-top: 100px;
+				margin-bottom: 100px;
+			}
+			.margin-bot {
+				margin-bottom: 100px;
+			}
+			.topo {
 				padding-top: 100px;
 				padding-bottom: 100px;
-		    	background-image: url(assets/img/paginas-novas/agua2/topo.png);
-		    	background-repeat: no-repeat;
-		    	background-size: 100% auto;
-		    	background-position: right top;
-		    	.oitenta {
-		    		margin-left: 0px;
-		    	}
-		    }
+				background-image: url(assets/img/paginas-novas/agua2/topo.png);
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				background-position: right top;
+				.oitenta {
+					margin-left: 0px;
+				}
+			}
 		}
 	}
 }
@@ -3298,7 +3296,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			max-width: 1400px !important;
 		}
 		.modal-content {
-			background-color: rgba(0,0,0,0);
+			background-color: rgba(0, 0, 0, 0);
 			border: none;
 			.modal-body {
 				padding: 0px;
@@ -3310,7 +3308,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					width: 60px;
 					height: 60px;
 					text-align: center;
-					background-color: #FFF;
+					background-color: #fff;
 					opacity: 0.7;
 					border-radius: 50px;
 					right: 10px;
@@ -3329,7 +3327,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					background-image: url(assets/img/loading.gif);
 					background-repeat: no-repeat;
 					background-position: center;
-					background-color: #FFF;
+					background-color: #fff;
 					width: 100%;
 					height: 90vh;
 					border: none;
@@ -3348,7 +3346,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			border-bottom: 0px;
 		}
 		.delete {
-			background-color: #295F32;
+			background-color: #295f32;
 			display: none;
 			text-align: center;
 			-webkit-transition: 0.4s;
@@ -3357,13 +3355,13 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			-o-transition: 0.4s;
 			transition: 0.4s;
 			&:hover {
-				background-color: #1D342E;
+				background-color: #1d342e;
 			}
 			h2 {
 				padding: 20px 0px;
 				font-size: 24px;
 				margin-bottom: 0px;
-				color: #FFF;
+				color: #fff;
 			}
 			&.show {
 				display: block;
@@ -3374,7 +3372,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			text-align: center;
 			h2 {
 				padding: 150px 0px;
-				color: #50A146;
+				color: #50a146;
 			}
 			&.show {
 				display: block;
@@ -3388,7 +3386,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					margin-bottom: 20px;
 				}
 				h2 {
-					color: #F4BC2D;
+					color: #f4bc2d;
 					font-size: 3vw;
 					@media screen and (max-width: 768px) {
 						font-size: 32px;
@@ -3422,19 +3420,19 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					}
 				}
 				&.carbono {
-					background-color: #50A146;
+					background-color: #50a146;
 				}
 				&.bio {
-					background-color: #005E33;
+					background-color: #005e33;
 				}
 				&.agua {
-					background-color: #15352E;
+					background-color: #15352e;
 				}
 				&.gestao {
-					background-color: #F79431;
+					background-color: #f79431;
 				}
 				&.diversidade {
-					background-color: #E8672E;
+					background-color: #e8672e;
 				}
 				&.cadeiav {
 					background-color: #655046 !important;
@@ -3450,10 +3448,10 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			border-left: 0px;
 			padding-left: 0px;
 			margin: 0px;
-			color: #15352E;
+			color: #15352e;
 			&#carbono {
 				.header {
-					background-color: #50A146;
+					background-color: #50a146;
 					h2 {
 						color: #f4bc2d;
 					}
@@ -3462,23 +3460,23 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					padding: 50px 0px;
 					.line {
 						padding-left: 20px;
-						border-left: 20px solid #50A146;
+						border-left: 20px solid #50a146;
 						.compromisso {
 							max-width: 120px;
 							margin-top: 50px;
 						}
 						quote {
-							background-color: #50A146;
-							color: #FBE7CD;
+							background-color: #50a146;
+							color: #fbe7cd;
 						}
 						h3 {
-							color: #50A146;
+							color: #50a146;
 						}
 						.table {
 							table {
 								border: none;
 								tr {
-									background-color: #15352E;
+									background-color: #15352e;
 									&:nth-child(1) {
 										background-color: #50a146;
 									}
@@ -3490,63 +3488,63 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			}
 			&#bio {
 				.header {
-					background-color: #005E33;
+					background-color: #005e33;
 					h2 {
 						color: #f4bc2d;
 					}
 				}
 				.content {
 					.line {
-						border-left: 20px solid #005E33;
+						border-left: 20px solid #005e33;
 						quote {
-							background-color: #005E33;
-							color: #FBE7CD;
+							background-color: #005e33;
+							color: #fbe7cd;
 						}
 						h3 {
-							color: #005E33;
+							color: #005e33;
 						}
 						.table {
 							table {
 								tr {
 									background-color: #9bc74c;
-									color: #FBE7CD;
+									color: #fbe7cd;
 									&:nth-child(1) {
-										background-color: #005E33;
+										background-color: #005e33;
 										td {
 											&:first-child {
 												&:before {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 												&:after {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 											}
 										}
 									}
 									&:nth-child(2) {
-										color: #005E33;
+										color: #005e33;
 										td {
 											&:first-child {
 												&:before {
-													background-color: #005E33;
+													background-color: #005e33;
 												}
 												&:after {
-													background-color: #005E33;
+													background-color: #005e33;
 												}
 											}
 											&:nth-child(2) {
 												&:after {
-													background-color: #005E33;
+													background-color: #005e33;
 												}
 											}
 										}
 									}
 									&:nth-child(3) {
-										color: #005E33;
+										color: #005e33;
 										td {
 											&:first-child {
 												&:before {
-													background-color: #005E33;
+													background-color: #005e33;
 												}
 											}
 										}
@@ -3559,27 +3557,27 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			}
 			&#agua {
 				.header {
-					background-color: #15352E;
+					background-color: #15352e;
 					h2 {
 						color: #f4bc2d;
 					}
 				}
 				.content {
 					.line {
-						border-left: 20px solid #15352E;
+						border-left: 20px solid #15352e;
 						quote {
-							background-color: #15352E;
-							color: #FBE7CD;
+							background-color: #15352e;
+							color: #fbe7cd;
 						}
 						h3 {
-							color: #15352E;
+							color: #15352e;
 						}
 						.table {
 							table {
 								tr {
 									background-color: #50a146;
 									&:nth-child(1) {
-										background-color: #15352E;
+										background-color: #15352e;
 									}
 								}
 							}
@@ -3589,7 +3587,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			}
 			&#gestao {
 				.header {
-					background-color: #F79431;
+					background-color: #f79431;
 					h2,
 					p,
 					span {
@@ -3598,21 +3596,21 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 				}
 				.content {
 					.line {
-						border-left: 20px solid #F79431;
+						border-left: 20px solid #f79431;
 						quote {
-							background-color: #F79431;
-							color: #FBE7CD;
+							background-color: #f79431;
+							color: #fbe7cd;
 						}
 						h3 {
-							color: #F79431;
+							color: #f79431;
 						}
 						.table {
 							table {
 								tr {
 									background-color: #d34029;
-									color: #FBE7CD;
+									color: #fbe7cd;
 									&:nth-child(1) {
-										background-color: #F79431;
+										background-color: #f79431;
 									}
 								}
 							}
@@ -3625,7 +3623,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 						background-color: #655046;
 						color: #fbe7cd;
 						&:hover {
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(0, 0, 0, 0);
 							color: #655046;
 						}
 					}
@@ -3633,35 +3631,35 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			}
 			&#diversidade {
 				.header {
-					background-color: #E8672E;
+					background-color: #e8672e;
 					h2 {
 						color: #f4bc2d;
 					}
 				}
 				.content {
 					.line {
-						border-left: 20px solid #E8672E;
+						border-left: 20px solid #e8672e;
 						quote {
-							background-color: #E8672E;
-							color: #FBE7CD;
+							background-color: #e8672e;
+							color: #fbe7cd;
 						}
 						h3 {
-							color: #E8672E;
+							color: #e8672e;
 						}
 						.table {
 							table {
 								tr {
 									background-color: #f4bc2d;
-									color: #FBE7CD;
+									color: #fbe7cd;
 									&:nth-child(1) {
-										background-color: #E8672E;
+										background-color: #e8672e;
 										td {
 											&:first-child {
 												&:before {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 												&:after {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 											}
 										}
@@ -3712,7 +3710,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 						border-left: 20px solid #655046;
 						quote {
 							background-color: #655046;
-							color: #FBE7CD;
+							color: #fbe7cd;
 						}
 						h3 {
 							color: #655046;
@@ -3721,16 +3719,16 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 							table {
 								tr {
 									background-color: #f4bc2d;
-									color: #FBE7CD;
+									color: #fbe7cd;
 									&:nth-child(1) {
 										background-color: #655046;
 										td {
 											&:first-child {
 												&:before {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 												&:after {
-													background-color: #FBE7CD;
+													background-color: #fbe7cd;
 												}
 											}
 										}
@@ -3769,23 +3767,23 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					}
 				}
 			}
-		    .header {
-		    	padding: 50px;
-		    	h2 {
-		    		font-size: 42px;
-		    	}
-		    	p {
-		    		font-size: 24px;
-		    		color: #FFF;
-		    	}
+			.header {
+				padding: 50px;
+				h2 {
+					font-size: 42px;
+				}
+				p {
+					font-size: 24px;
+					color: #fff;
+				}
 				span {
 					font-weight: 700;
-		    		color: #FFF;
-		    		img {
-		    			margin-right: 5px;
-		    		}
+					color: #fff;
+					img {
+						margin-right: 5px;
+					}
 				}
-		    }
+			}
 			.content {
 				padding: 50px 0px;
 				.line {
@@ -3826,12 +3824,12 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 						table {
 							border: none;
 							@media screen and (max-width: 992px) {
-								width:100%;
+								width: 100%;
 								table-layout: fixed;
 								overflow-wrap: break-word;
 							}
 							tr {
-								color: #FBE7CD;
+								color: #fbe7cd;
 								td {
 									padding: 30px;
 									font-size: 18px;
@@ -3854,9 +3852,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 										&:first-child {
 											position: relative;
 											&:before {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												width: 2px;
 												top: 20px;
@@ -3864,9 +3862,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 												height: calc(100% - 40px);
 											}
 											&:after {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												height: 2px;
 												top: 43px;
@@ -3881,9 +3879,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 										&:first-child {
 											position: relative;
 											&:before {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												width: 2px;
 												top: 20px;
@@ -3891,9 +3889,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 												height: calc(100% - 20px);
 											}
 											&:after {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												width: calc(100% - 20px);
 												bottom: -1px;
@@ -3904,9 +3902,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 										&:nth-child(2) {
 											position: relative;
 											&:after {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												width: calc(100% - 20px);
 												bottom: -1px;
@@ -3921,9 +3919,9 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 										&:first-child {
 											position: relative;
 											&:before {
-												background-color: #FBE7CD;
+												background-color: #fbe7cd;
 												position: absolute;
-												content: '';
+												content: "";
 												display: block;
 												width: 2px;
 												top: 0px;
@@ -3937,7 +3935,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 						}
 					}
 				}
-		    }
+			}
 			.footer {
 				padding: 100px 0px;
 				margin-top: 100px;
@@ -3956,14 +3954,14 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 				button {
 					border: 2px solid #f4bc2d;
 					background-color: #f4bc2d;
-					color: #15352E;
+					color: #15352e;
 					padding: 20px;
 					font-weight: 700;
 					border-radius: 50px;
 					transition: 0.4s;
 					&:hover {
 						color: #f4bc2d;
-						background-color: rgba(0,0,0,0);
+						background-color: rgba(0, 0, 0, 0);
 					}
 				}
 			}
@@ -3976,7 +3974,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 	.itens {
 		border: none;
 		.item {
-			font-family: 'Intro';
+			font-family: "Intro";
 			&.active {
 				@media screen and (max-width: 768px) {
 					order: 4;
@@ -3986,29 +3984,29 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 				}
 			}
 			&.educa {
-				background-color: #9BC74C;
-				color: #15352E;
+				background-color: #9bc74c;
+				color: #15352e;
 				&:after {
 					content: url(assets/img/sustenta/arr1.png);
 				}
 			}
 			&.cidadania {
-				background-color: #E8672E;
-				color: #FBE7CD;
+				background-color: #e8672e;
+				color: #fbe7cd;
 				&:after {
 					content: url(assets/img/sustenta/arr2.png);
 				}
 			}
 			&.apoio {
-				background-color: #50A146;
-				color: #FBE7CD;
+				background-color: #50a146;
+				color: #fbe7cd;
 				&:after {
 					content: url(assets/img/sustenta/arr2.png);
 				}
 			}
 			&.engaja {
-				background-color: #EBB427;
-				color: #15352E;
+				background-color: #ebb427;
+				color: #15352e;
 				&:after {
 					content: url(assets/img/sustenta/arr1.png);
 				}
@@ -4018,7 +4016,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 				left: 50%;
 				transform: translateX(-50%);
 				transform-origin: center;
-				transition: .4s;
+				transition: 0.4s;
 				bottom: 20px;
 			}
 			.conteudo {
@@ -4064,7 +4062,7 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 				}
 			}
 			.content {
-				background-color: #FBE7CD;
+				background-color: #fbe7cd;
 				background-image: url(assets/img/sustenta/bgzin.png);
 				background-size: cover;
 				background-position: center;
@@ -4096,71 +4094,71 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 					border: none;
 					padding: 10px 20px;
 					border-radius: 50px;
-					transition: .4s;
+					transition: 0.4s;
 					margin-top: 10px;
 				}
 			}
 			&#educa {
-				$cor: #9BC74C;
-				$cor2: #15352E;
+				$cor: #9bc74c;
+				$cor2: #15352e;
 				.title {
 					background-color: $cor;
 					color: $cor2;
 				}
 				.content {
 					h4 {
-						color: $cor
+						color: $cor;
 					}
 					button {
 						background-color: $cor;
 						color: $cor2;
-						bordeR: 2px solid $cor;
+						border: 2px solid $cor;
 						&:hover {
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(0, 0, 0, 0);
 							color: $cor;
 						}
 					}
 				}
 			}
 			&#cidadania {
-				$cor: #E8672E;
-				$cor2: #FBE7CD;
+				$cor: #e8672e;
+				$cor2: #fbe7cd;
 				.title {
 					background-color: $cor;
 					color: $cor2;
 				}
 				.content {
 					h4 {
-						color: $cor
+						color: $cor;
 					}
 					button {
 						background-color: $cor;
 						color: $cor2;
-						bordeR: 2px solid $cor;
+						border: 2px solid $cor;
 						&:hover {
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(0, 0, 0, 0);
 							color: $cor;
 						}
 					}
 				}
 			}
 			&#apoio {
-				$cor: #50A146;
-				$cor2: #FBE7CD;
+				$cor: #50a146;
+				$cor2: #fbe7cd;
 				.title {
 					background-color: $cor;
 					color: $cor2;
 				}
 				.content {
 					h4 {
-						color: $cor
+						color: $cor;
 					}
 					button {
 						background-color: $cor;
 						color: $cor2;
-						bordeR: 2px solid $cor;
+						border: 2px solid $cor;
 						&:hover {
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(0, 0, 0, 0);
 							color: $cor;
 						}
 					}
@@ -4168,21 +4166,21 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 			}
 			&#engaja {
 				$cor: #ebb427;
-				$cor2: #15352E;
+				$cor2: #15352e;
 				.title {
 					background-color: $cor;
 					color: $cor2;
 				}
 				.content {
 					h4 {
-						color: $cor
+						color: $cor;
 					}
 					button {
 						background-color: $cor;
 						color: $cor2;
-						bordeR: 2px solid $cor;
+						border: 2px solid $cor;
 						&:hover {
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(0, 0, 0, 0);
 							color: $cor;
 						}
 					}
@@ -4200,10 +4198,10 @@ img.cadeia-de-valor-blocos-bloco-4-icone {
 	background-position: center;
 	background-blend-mode: overlay;
 	padding: 100px 0px;
-	color: #FFF;
+	color: #fff;
 	h3 {
-		font-family: 'Intro';
-		color: #9BC74C;
+		font-family: "Intro";
+		color: #9bc74c;
 		font-size: 32px;
 		margin-bottom: 100px;
 	}
@@ -4492,7 +4490,7 @@ section.single {
 		padding-top: 50px;
 	}
 	&:before {
-		content: '';
+		content: "";
 		display: block;
 		position: absolute;
 		width: 100%;
@@ -4503,7 +4501,7 @@ section.single {
 		background-image: url(assets/img/loading.gif);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-color: rgba(255,255,255,1);
+		background-color: rgba(255, 255, 255, 1);
 	}
 	&.loaded {
 		max-height: inherit;
@@ -4521,7 +4519,7 @@ section.single {
 			background-size: auto 50%;
 			background-repeat: no-repeat;
 			background-position: center;
-			background-color: #295F32;
+			background-color: #295f32;
 			opacity: 0.3;
 			position: absolute;
 			font-size: 0px;
@@ -4850,7 +4848,7 @@ section.single {
 				@include transition(0.4s);
 				& + span {
 					position: absolute;
-					color: #FBE7CD;
+					color: #fbe7cd;
 					z-index: 10;
 					font-weight: 700;
 					font-size: 1.85vw;
@@ -4996,7 +4994,7 @@ section.single {
 		margin-top: 30px;
 		li:not(:first-child):before {
 			color: #b2b2b2;
-			content: '\02022';
+			content: "\02022";
 			margin-top: 2px;
 			display: inline-block;
 			margin-left: -4px;
@@ -5141,23 +5139,23 @@ section.timeline {
 }
 
 section.produtor {
-	background-color: #FBE7CD;
+	background-color: #fbe7cd;
 	margin-top: 100px;
 	overflow-x: hidden;
 	text-align: left !important;
 	.verd {
 		background-image: url(assets/img/img-produtor/bg3.png);
 		background-size: cover;
-		background-color: #50A146;
+		background-color: #50a146;
 		@media screen and (max-width: 768px) {
 			background-image: url();
 			h2 {
 				margin-top: 50px;
-				color: #FFF;
+				color: #fff;
 			}
 			p {
 				margin-bottom: 50px;
-				color: #FFF;
+				color: #fff;
 			}
 		}
 	}
@@ -5166,23 +5164,23 @@ section.produtor {
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: top left;
-		background-color: #50A146;
+		background-color: #50a146;
 		@media screen and (max-width: 768px) {
 			background-image: url();
 			h2 {
 				margin-top: 50px;
-				color: #FFF;
+				color: #fff;
 			}
 			p {
-				
-				color: #FFF;
+				color: #fff;
 			}
 			li {
 				margin-bottom: 50px;
 			}
 		}
-		p, li {
-			color: #FFF;
+		p,
+		li {
+			color: #fff;
 		}
 	}
 	.amrel {
@@ -5192,7 +5190,7 @@ section.produtor {
 		background-repeat: no-repeat;
 		padding: 100px 0px;
 		span {
-			color: #50A146;
+			color: #50a146;
 			font-size: 24px;
 			margin: 30px 0px;
 			display: block;
@@ -5230,7 +5228,7 @@ section.produtor {
 			width: 100%;
 		}
 		span {
-			color: #FFF;
+			color: #fff;
 			font-size: 32px;
 			font-weight: 700;
 			display: inline-block;
@@ -5244,7 +5242,7 @@ section.produtor {
 		}
 		p {
 			text-align: center;
-			color: #FFF;
+			color: #fff;
 			font-weight: 700;
 		}
 		.bt {
@@ -5263,7 +5261,6 @@ section.produtor {
 		background-position: bottom left;
 		background-size: 100% auto;
 		img {
-
 			@media screen and (max-width: 768px) {
 				margin: 50px -50px 50px;
 			}
@@ -5275,7 +5272,7 @@ section.produtor {
 				margin-bottom: 50px;
 			}
 			h2 {
-				color: #50A146;
+				color: #50a146;
 				font-size: 72px;
 				margin-bottom: -10px;
 			}
@@ -5285,7 +5282,7 @@ section.produtor {
 				line-height: 50px;
 				strong {
 					display: block;
-					color: #E8672E;
+					color: #e8672e;
 				}
 			}
 		}
@@ -5310,9 +5307,8 @@ section.produtor {
 	}
 }
 
-
 .fornew {
-	background-color: #F4723C;
+	background-color: #f4723c;
 	.sideimg {
 		position: relative;
 		left: -15px;
@@ -5321,21 +5317,21 @@ section.produtor {
 		margin-bottom: 10px;
 	}
 	.btn-col-acessa {
-	    background-color: #fbe7cd;
-	    color: #655046;
-	    padding: 15px 50px;
-	    border-radius: 50px;
-	    font-weight: 700;
-	    font-size: 18px;
-	    margin: 2.5px;
-	    display: inline-block;
-	    white-space: nowrap;
-	    transition: 0.4s;
+		background-color: #fbe7cd;
+		color: #655046;
+		padding: 15px 50px;
+		border-radius: 50px;
+		font-weight: 700;
+		font-size: 18px;
+		margin: 2.5px;
+		display: inline-block;
+		white-space: nowrap;
+		transition: 0.4s;
 		margin-top: 20px;
-	    &:hover {
-		    color: #fbe7cd;
-		    background-color: #655046;
-	    }
+		&:hover {
+			color: #fbe7cd;
+			background-color: #655046;
+		}
 	}
 }
 
@@ -5374,7 +5370,7 @@ main.produtos {
 				h2 {
 					margin-bottom: 35vw;
 					font-size: 72px;
-					color: #50A146;
+					color: #50a146;
 					@media screen and (max-width: 1200px) {
 						margin-bottom: 20vw;
 					}
@@ -5390,7 +5386,7 @@ main.produtos {
 					}
 					strong {
 						&.red {
-							color: #D34029;
+							color: #d34029;
 						}
 						&.ora {
 							color: #f79431;
@@ -5410,7 +5406,6 @@ main.produtos {
 		}
 	}
 
-
 	.itens {
 		background-color: #15352e;
 		.item {
@@ -5422,7 +5417,7 @@ main.produtos {
 				background-image: url(assets/img/produtos/item1.png);
 				background-position: top center;
 				background-size: cover;
-				background-color: #E8672E;
+				background-color: #e8672e;
 				@media screen and (max-width: 768px) {
 					background-image: url(assets/img/produtos/item1m.png);
 				}
@@ -5441,15 +5436,15 @@ main.produtos {
 					text-align: right;
 					button {
 						background-color: #263832 !important;
-						color: #FFF !important;
+						color: #fff !important;
 						&:hover {
-							background-color: #FFF !important;
+							background-color: #fff !important;
 							color: #263832 !important;
 						}
 						&.seta {
 							svg {
 								path {
-									fill: #FFFFFF;
+									fill: #ffffff;
 								}
 							}
 							&:hover {
@@ -5465,19 +5460,15 @@ main.produtos {
 			}
 			&.item3 {
 				background-image: url(assets/img/produtos/item3.png);
-				background-position: center left;
-				background-size: auto 100%;
-				background-color: #15352e;
-				@media screen and (max-width: 768px) {
-					background-image: url(assets/img/produtos/item3m.png);
-					background-size: cover;
-				}
+				background-position: center;
+    			background-size: cover;
+
 				.row {
 					text-align: right;
 					button {
 						color: #15352e !important;
 						&:hover {
-							background-color: #FFF !important;
+							background-color: #fff !important;
 							color: #15352e !important;
 						}
 						&.seta {
@@ -5515,9 +5506,9 @@ main.produtos {
 					}
 					button {
 						background-color: #78231b;
-						color: #FFF;
+						color: #fff;
 						&:hover {
-							background-color: #FFF;
+							background-color: #fff;
 							color: #78231b;
 						}
 					}
@@ -5544,9 +5535,9 @@ main.produtos {
 					}
 					button {
 						background-color: #2d4314;
-						color: #FFF;
+						color: #fff;
 						&:hover {
-							background-color: #FFF;
+							background-color: #fff;
 							color: #2d4314;
 						}
 					}
@@ -5579,9 +5570,9 @@ main.produtos {
 					}
 					button {
 						background-color: #821e32;
-						color: #FFF;
+						color: #fff;
 						&:hover {
-							background-color: #FFF;
+							background-color: #fff;
 							color: #821e32;
 						}
 					}
@@ -5676,7 +5667,6 @@ main.produtos {
 					}
 				}
 			}
-
 
 			&.item2-1 {
 				background-color: #005e2c;
@@ -5782,7 +5772,7 @@ main.produtos {
 									object-position: center;
 								}
 							}
-	    					padding: 0px;
+							padding: 0px;
 							text-align: left;
 							h3 {
 								color: #000;
@@ -5813,7 +5803,7 @@ main.produtos {
 					}
 				}
 				h3 {
-					color: #FFF;
+					color: #fff;
 					font-size: 42px;
 					line-height: 42px;
 					margin-bottom: 20px;
@@ -5836,24 +5826,24 @@ main.produtos {
 					}
 				}
 				button:not(.plus) {
-					background-color: #E5BA3F;
+					background-color: #e5ba3f;
 					padding: 10px 30px;
 					border-radius: 50px;
 					color: #605148;
 					border: none;
 					font-weight: 700;
 					font-size: 14px;
-					transition: .4s;
+					transition: 0.4s;
 					&:hover {
 						background-color: #605148;
-						color: #E5BA3F;
+						color: #e5ba3f;
 					}
 				}
 				button.seta {
 					width: 41px;
 					height: 41px;
 					padding: 7.5px;
-					&[aria-expanded=true] {
+					&[aria-expanded="true"] {
 						transform: rotate(180deg);
 					}
 					svg {
@@ -5862,7 +5852,7 @@ main.produtos {
 						margin: -10px;
 						max-width: inherit;
 						transform: scale(0.6);
-						transition: .4s;
+						transition: 0.4s;
 						path {
 							fill: #605148;
 						}
@@ -5870,7 +5860,7 @@ main.produtos {
 					&:hover {
 						svg {
 							path {
-								fill: #E5BA3F;
+								fill: #e5ba3f;
 							}
 						}
 					}
@@ -5878,7 +5868,7 @@ main.produtos {
 				button.plus {
 					border: none;
 					padding: 0;
-					background: rgba(0,0,0,0);
+					background: rgba(0, 0, 0, 0);
 					color: #fbe7cd;
 					font-size: 22px;
 					&:before {
